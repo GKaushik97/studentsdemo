@@ -1,0 +1,1588 @@
+INFO - 2023-10-30 05:47:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-30 05:48:17 --> syntax error, unexpected '<', expecting end of file
+in APPPATH/Views/student/student.php on line 5.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Student.php(22): view()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 05:48:19 --> syntax error, unexpected '<', expecting end of file
+in APPPATH/Views/student/student.php on line 5.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Student.php(22): view()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 05:49:11 --> syntax error, unexpected '<', expecting end of file
+in APPPATH/Views/student/student.php on line 5.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Student.php(22): view()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 05:49:12 --> syntax error, unexpected '<', expecting end of file
+in APPPATH/Views/student/student.php on line 5.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Student.php(22): view()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 05:49:13 --> syntax error, unexpected '<', expecting end of file
+in APPPATH/Views/student/student.php on line 5.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Student.php(22): view()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 05:57:07 --> Cannot call constructor
+in APPPATH/Controllers/Student.php on line 9.
+ 1 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Student->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 05:57:29 --> Class 'App\Controllers\Student_model' not found
+in APPPATH/Controllers/Student.php on line 9.
+ 1 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Student->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 05:57:30 --> Class 'App\Controllers\Student_model' not found
+in APPPATH/Controllers/Student.php on line 9.
+ 1 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Student->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 05:57:47 --> Class 'Codeigniter\Model' not found
+in APPPATH/Models/Student_model.php on line 7.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(306): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 APPPATH/Controllers/Student.php(9): spl_autoload_call()
+ 6 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Student->__construct()
+ 7 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 07:03:38 --> Undefined variable: courses
+in APPPATH/Views/student/student_add.php on line 40.
+ 1 APPPATH/Views/student/student_add.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student_body.php(45): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 9 APPPATH/Views/student/student.php(9): CodeIgniter\View\View->include()
+10 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+11 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+13 APPPATH/Controllers/Student.php(23): view()
+14 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+15 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+16 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+17 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 07:04:24 --> Undefined variable: courses
+in APPPATH/Views/student/student_add.php on line 40.
+ 1 APPPATH/Views/student/student_add.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student_body.php(45): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 9 APPPATH/Views/student/student.php(9): CodeIgniter\View\View->include()
+10 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+11 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+13 APPPATH/Controllers/Student.php(23): view()
+14 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+15 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+16 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+17 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 07:04:45 --> Undefined variable: courses
+in APPPATH/Views/student/student_add.php on line 40.
+ 1 APPPATH/Views/student/student_add.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student_body.php(45): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 9 APPPATH/Views/student/student.php(9): CodeIgniter\View\View->include()
+10 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+11 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+13 APPPATH/Controllers/Student.php(23): view()
+14 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+15 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+16 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+17 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 07:04:47 --> Undefined variable: courses
+in APPPATH/Views/student/student_add.php on line 40.
+ 1 APPPATH/Views/student/student_add.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student_body.php(45): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 9 APPPATH/Views/student/student.php(9): CodeIgniter\View\View->include()
+10 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+11 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+13 APPPATH/Controllers/Student.php(23): view()
+14 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+15 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+16 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+17 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 07:06:45 --> Undefined variable: courses
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 APPPATH/Views/student/student_add.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student_body.php(45): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 9 APPPATH/Views/student/student.php(9): CodeIgniter\View\View->include()
+10 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+11 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+13 APPPATH/Controllers/Student.php(23): view()
+14 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+15 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+16 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+17 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 07:08:59 --> Undefined variable: courses
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 APPPATH/Views/student/student_add.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student_body.php(45): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 9 APPPATH/Views/student/student.php(9): CodeIgniter\View\View->include()
+10 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+11 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+13 APPPATH/Controllers/Student.php(23): view()
+14 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+15 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+16 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+17 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 07:09:01 --> Undefined variable: courses
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 APPPATH/Views/student/student_add.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student_body.php(45): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 9 APPPATH/Views/student/student.php(9): CodeIgniter\View\View->include()
+10 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+11 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+13 APPPATH/Controllers/Student.php(23): view()
+14 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+15 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+16 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+17 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 07:09:33 --> Undefined variable: countries
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 APPPATH/Views/student/student_add.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student_body.php(45): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 9 APPPATH/Views/student/student.php(9): CodeIgniter\View\View->include()
+10 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+11 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+13 APPPATH/Controllers/Student.php(23): view()
+14 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+15 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+16 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+17 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 07:09:35 --> Undefined variable: countries
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 APPPATH/Views/student/student_add.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student_body.php(45): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 9 APPPATH/Views/student/student.php(9): CodeIgniter\View\View->include()
+10 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+11 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+13 APPPATH/Controllers/Student.php(23): view()
+14 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+15 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+16 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+17 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 07:10:56 --> Undefined variable: countries
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 APPPATH/Views/student/student_add.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student_body.php(45): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 9 APPPATH/Views/student/student.php(9): CodeIgniter\View\View->include()
+10 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+11 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+13 APPPATH/Controllers/Student.php(23): view()
+14 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+15 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+16 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+17 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 07:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 07:11:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 07:11:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 07:14:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-30 07:14:52 --> Undefined variable: countries
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 APPPATH/Views/student/student_add.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student_body.php(45): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 9 APPPATH/Views/student/student.php(9): CodeIgniter\View\View->include()
+10 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+11 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+13 APPPATH/Controllers/Student.php(23): view()
+14 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+15 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+16 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+17 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 07:15:04 --> Undefined variable: countries
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 APPPATH/Views/student/student_add.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student_body.php(45): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 9 APPPATH/Views/student/student.php(9): CodeIgniter\View\View->include()
+10 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+11 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+13 APPPATH/Controllers/Student.php(23): view()
+14 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+15 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+16 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+17 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 07:15:15 --> Undefined variable: courses
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 APPPATH/Views/student/student_add.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student_body.php(45): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 9 APPPATH/Views/student/student.php(9): CodeIgniter\View\View->include()
+10 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+11 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+13 APPPATH/Controllers/Student.php(23): view()
+14 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+15 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+16 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+17 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 07:15:17 --> Undefined variable: courses
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 APPPATH/Views/student/student_add.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student_body.php(45): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 9 APPPATH/Views/student/student.php(9): CodeIgniter\View\View->include()
+10 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+11 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+13 APPPATH/Controllers/Student.php(23): view()
+14 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+15 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+16 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+17 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 07:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-30 07:22:00 --> Undefined variable: courses
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 APPPATH/Views/student/student_add.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student_body.php(45): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 9 APPPATH/Views/student/student.php(9): CodeIgniter\View\View->include()
+10 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+11 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+13 APPPATH/Controllers/Student.php(25): view()
+14 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+15 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+16 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+17 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 07:22:54 --> Undefined variable: courses
+in APPPATH/Views/student/student_add.php on line 15.
+ 1 APPPATH/Views/student/student_add.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student_body.php(45): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 9 APPPATH/Views/student/student.php(9): CodeIgniter\View\View->include()
+10 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+11 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+13 APPPATH/Controllers/Student.php(25): view()
+14 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+15 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+16 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+17 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 07:40:55 --> Array to string conversion
+in APPPATH/Views/student/student_add.php on line 46.
+ 1 APPPATH/Views/student/student_add.php(46): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student_body.php(45): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 9 APPPATH/Views/student/student.php(9): CodeIgniter\View\View->include()
+10 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+11 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+13 APPPATH/Controllers/Student.php(25): view()
+14 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+15 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+16 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+17 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 07:41:11 --> Array to string conversion
+in APPPATH/Views/student/student_add.php on line 55.
+ 1 APPPATH/Views/student/student_add.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student_body.php(45): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 9 APPPATH/Views/student/student.php(9): CodeIgniter\View\View->include()
+10 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+11 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+13 APPPATH/Controllers/Student.php(25): view()
+14 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+15 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+16 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+17 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 07:47:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 07:47:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 07:47:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 07:47:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-30 07:48:27 --> Undefined variable: data
+in APPPATH/Views/student/student_body.php on line 45.
+ 1 APPPATH/Views/student/student_body.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student.php(9): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Student.php(25): view()
+10 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+11 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 07:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-30 09:13:55 --> Cannot use object of type stdClass as array
+in APPPATH/Views/student/student_add.php on line 44.
+ 1 SYSTEMPATH/View/View.php(226): include()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Student.php(34): view()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->addStudent()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 09:13:56 --> Cannot use object of type stdClass as array
+in APPPATH/Views/student/student_add.php on line 44.
+ 1 SYSTEMPATH/View/View.php(226): include()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Student.php(34): view()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->addStudent()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 10:18:42 --> syntax error, unexpected '<', expecting end of file
+in APPPATH/Views/student/student_add.php on line 14.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Student.php(36): view()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->addStudent()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 10:19:01 --> Undefined variable: errors
+in APPPATH/Views/student/student_add.php on line 14.
+ 1 APPPATH/Views/student/student_add.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Student.php(36): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->addStudent()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 10:19:20 --> Undefined variable: errors
+in APPPATH/Views/student/student_add.php on line 14.
+ 1 APPPATH/Views/student/student_add.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Student.php(36): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->addStudent()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 10:27:15 --> syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+in APPPATH/Views/student/student_add.php on line 18.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Student.php(36): view()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->addStudent()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 10:27:16 --> syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+in APPPATH/Views/student/student_add.php on line 18.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Student.php(36): view()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->addStudent()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 10:27:49 --> syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+in APPPATH/Views/student/student_add.php on line 18.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Student.php(36): view()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->addStudent()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 10:32:34 --> Call to undefined function set_value()
+in APPPATH/Views/student/student_add.php on line 17.
+ 1 SYSTEMPATH/View/View.php(226): include()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Student.php(36): view()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->addStudent()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 10:32:35 --> Call to undefined function set_value()
+in APPPATH/Views/student/student_add.php on line 17.
+ 1 SYSTEMPATH/View/View.php(226): include()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Student.php(36): view()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->addStudent()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 10:33:28 --> Call to undefined function set_value()
+in APPPATH/Views/student/student_add.php on line 17.
+ 1 SYSTEMPATH/View/View.php(226): include()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Student.php(36): view()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->addStudent()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 10:42:42 --> syntax error, unexpected '>'
+in APPPATH/Views/student/student_add.php on line 49.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Student.php(37): view()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->addStudent()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 10:42:43 --> syntax error, unexpected '>'
+in APPPATH/Views/student/student_add.php on line 49.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Student.php(37): view()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->addStudent()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 10:42:44 --> syntax error, unexpected '>'
+in APPPATH/Views/student/student_add.php on line 49.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Student.php(37): view()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->addStudent()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 10:49:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-30 11:22:30 --> explode() expects parameter 2 to be string, array given
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/student/student_add.php(5): explode()
+ 3 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Student.php(54): view()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:22:31 --> explode() expects parameter 2 to be string, array given
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/student/student_add.php(5): explode()
+ 3 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Student.php(54): view()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:22:31 --> explode() expects parameter 2 to be string, array given
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/student/student_add.php(5): explode()
+ 3 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Student.php(54): view()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:22:38 --> explode() expects parameter 2 to be string, array given
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/student/student_add.php(5): explode()
+ 3 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Student.php(54): view()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:23:54 --> explode() expects parameter 2 to be string, array given
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/student/student_add.php(5): explode()
+ 3 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Student.php(54): view()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:25:23 --> explode() expects parameter 2 to be string, array given
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/student/student_add.php(5): explode()
+ 3 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Student.php(54): view()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:25:26 --> explode() expects parameter 2 to be string, array given
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/student/student_add.php(5): explode()
+ 3 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Student.php(54): view()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:25:29 --> explode() expects parameter 2 to be string, array given
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/student/student_add.php(5): explode()
+ 3 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Student.php(54): view()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:26:01 --> explode() expects parameter 2 to be string, array given
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/student/student_add.php(5): explode()
+ 3 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Student.php(54): view()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:26:03 --> explode() expects parameter 2 to be string, array given
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/student/student_add.php(5): explode()
+ 3 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Student.php(54): view()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:26:20 --> explode() expects parameter 2 to be string, array given
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/student/student_add.php(5): explode()
+ 3 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Student.php(54): view()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:26:21 --> explode() expects parameter 2 to be string, array given
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/student/student_add.php(5): explode()
+ 3 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Student.php(54): view()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:26:21 --> explode() expects parameter 2 to be string, array given
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/student/student_add.php(5): explode()
+ 3 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Student.php(54): view()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:26:21 --> explode() expects parameter 2 to be string, array given
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/student/student_add.php(5): explode()
+ 3 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Student.php(54): view()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:26:21 --> explode() expects parameter 2 to be string, array given
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/student/student_add.php(5): explode()
+ 3 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Student.php(54): view()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:26:21 --> explode() expects parameter 2 to be string, array given
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/student/student_add.php(5): explode()
+ 3 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Student.php(54): view()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:26:21 --> explode() expects parameter 2 to be string, array given
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/student/student_add.php(5): explode()
+ 3 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Student.php(54): view()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:26:21 --> explode() expects parameter 2 to be string, array given
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/student/student_add.php(5): explode()
+ 3 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Student.php(54): view()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:26:21 --> explode() expects parameter 2 to be string, array given
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/student/student_add.php(5): explode()
+ 3 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Student.php(54): view()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:26:21 --> explode() expects parameter 2 to be string, array given
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/student/student_add.php(5): explode()
+ 3 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Student.php(54): view()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:26:21 --> explode() expects parameter 2 to be string, array given
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/student/student_add.php(5): explode()
+ 3 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Student.php(54): view()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:26:22 --> explode() expects parameter 2 to be string, array given
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/student/student_add.php(5): explode()
+ 3 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Student.php(54): view()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:26:22 --> explode() expects parameter 2 to be string, array given
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/student/student_add.php(5): explode()
+ 3 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Student.php(54): view()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:26:22 --> explode() expects parameter 2 to be string, array given
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/student/student_add.php(5): explode()
+ 3 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Student.php(54): view()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:26:22 --> explode() expects parameter 2 to be string, array given
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/student/student_add.php(5): explode()
+ 3 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Student.php(54): view()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:26:22 --> explode() expects parameter 2 to be string, array given
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/student/student_add.php(5): explode()
+ 3 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Student.php(54): view()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:26:22 --> explode() expects parameter 2 to be string, array given
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/student/student_add.php(5): explode()
+ 3 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Student.php(54): view()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:50:26 --> Undefined variable: ex_hobbies
+in APPPATH/Views/student/student_add.php on line 6.
+ 1 APPPATH/Views/student/student_add.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Student.php(37): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->addStudent()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:50:55 --> Undefined variable: ex_hobbies
+in APPPATH/Views/student/student_add.php on line 53.
+ 1 APPPATH/Views/student/student_add.php(53): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Student.php(37): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->addStudent()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:50:56 --> Undefined variable: ex_hobbies
+in APPPATH/Views/student/student_add.php on line 53.
+ 1 APPPATH/Views/student/student_add.php(53): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Student.php(37): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->addStudent()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:51:14 --> Undefined variable: ext_hobbies
+in APPPATH/Views/student/student_add.php on line 53.
+ 1 APPPATH/Views/student/student_add.php(53): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Student.php(37): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->addStudent()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:51:14 --> Undefined variable: ext_hobbies
+in APPPATH/Views/student/student_add.php on line 53.
+ 1 APPPATH/Views/student/student_add.php(53): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Student.php(37): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->addStudent()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:51:58 --> Undefined variable: ext_hobbies
+in APPPATH/Views/student/student_add.php on line 6.
+ 1 APPPATH/Views/student/student_add.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Student.php(37): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->addStudent()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:52:17 --> Undefined variable: ex_hobbies
+in APPPATH/Views/student/student_add.php on line 54.
+ 1 APPPATH/Views/student/student_add.php(54): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Student.php(37): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->addStudent()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:53:00 --> Undefined variable: ex_hobbies
+in APPPATH/Views/student/student_add.php on line 54.
+ 1 APPPATH/Views/student/student_add.php(54): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Student.php(37): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->addStudent()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 12:00:13 --> explode() expects parameter 2 to be string, array given
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/student/student_add.php(5): explode()
+ 3 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Student.php(55): view()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 12:00:55 --> explode() expects parameter 2 to be string, array given
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/student/student_add.php(5): explode()
+ 3 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Student.php(55): view()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 12:01:51 --> syntax error, unexpected 'echo' (T_ECHO)
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Student.php(37): view()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->addStudent()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 12:01:51 --> syntax error, unexpected 'echo' (T_ECHO)
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Student.php(37): view()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->addStudent()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 12:01:51 --> syntax error, unexpected 'echo' (T_ECHO)
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Student.php(37): view()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->addStudent()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 12:01:51 --> syntax error, unexpected 'echo' (T_ECHO)
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Student.php(37): view()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->addStudent()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 12:02:21 --> explode() expects parameter 2 to be string, array given
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/student/student_add.php(5): explode()
+ 3 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Student.php(55): view()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 12:02:22 --> explode() expects parameter 2 to be string, array given
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/student/student_add.php(5): explode()
+ 3 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Student.php(55): view()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 12:02:34 --> Cannot use [] for reading
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-30 12:02:34 --> Cannot use [] for reading
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-30 12:03:03 --> explode() expects parameter 2 to be string, array given
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/student/student_add.php(5): explode()
+ 3 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Student.php(55): view()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 12:04:38 --> explode() expects parameter 2 to be string, array given
+in APPPATH/Views/student/student_add.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/student/student_add.php(5): explode()
+ 3 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_add.php')
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Student.php(56): view()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 12:05:31 --> Undefined index: hobbies
+in APPPATH/Controllers/Student.php on line 55.
+ 1 APPPATH/Controllers/Student.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 12:06:55 --> Undefined index: hobbies
+in APPPATH/Controllers/Student.php on line 55.
+ 1 APPPATH/Controllers/Student.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 12:06:55 --> Undefined index: hobbies
+in APPPATH/Controllers/Student.php on line 55.
+ 1 APPPATH/Controllers/Student.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 12:08:07 --> Undefined index: hobbies
+in APPPATH/Controllers/Student.php on line 55.
+ 1 APPPATH/Controllers/Student.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 12:08:07 --> Undefined index: hobbies
+in APPPATH/Controllers/Student.php on line 55.
+ 1 APPPATH/Controllers/Student.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 12:08:07 --> Undefined index: hobbies
+in APPPATH/Controllers/Student.php on line 55.
+ 1 APPPATH/Controllers/Student.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 12:08:08 --> Undefined index: hobbies
+in APPPATH/Controllers/Student.php on line 55.
+ 1 APPPATH/Controllers/Student.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 12:08:08 --> Undefined index: hobbies
+in APPPATH/Controllers/Student.php on line 55.
+ 1 APPPATH/Controllers/Student.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 12:08:08 --> Undefined index: hobbies
+in APPPATH/Controllers/Student.php on line 55.
+ 1 APPPATH/Controllers/Student.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 12:08:08 --> Undefined index: hobbies
+in APPPATH/Controllers/Student.php on line 55.
+ 1 APPPATH/Controllers/Student.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 12:08:10 --> Undefined index: hobbies
+in APPPATH/Controllers/Student.php on line 55.
+ 1 APPPATH/Controllers/Student.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 12:08:10 --> Undefined index: hobbies
+in APPPATH/Controllers/Student.php on line 55.
+ 1 APPPATH/Controllers/Student.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 12:14:15 --> Undefined index: hobbies
+in APPPATH/Controllers/Student.php on line 55.
+ 1 APPPATH/Controllers/Student.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 12:15:20 --> Undefined index: hobbies
+in APPPATH/Controllers/Student.php on line 55.
+ 1 APPPATH/Controllers/Student.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 12:15:49 --> Undefined index: hobbies
+in APPPATH/Controllers/Student.php on line 55.
+ 1 APPPATH/Controllers/Student.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 12:16:48 --> Undefined index: hobbies
+in APPPATH/Controllers/Student.php on line 56.
+ 1 APPPATH/Controllers/Student.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 12:17:13 --> Undefined index: hobbies
+in APPPATH/Controllers/Student.php on line 42.
+ 1 APPPATH/Controllers/Student.php(42): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 12:19:46 --> Undefined index: hobbies
+in APPPATH/Controllers/Student.php on line 42.
+ 1 APPPATH/Controllers/Student.php(42): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 12:20:20 --> Undefined index: hobbies
+in APPPATH/Controllers/Student.php on line 42.
+ 1 APPPATH/Controllers/Student.php(42): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 12:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 12:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 12:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-30 12:28:16 --> Allowed fields must be specified for model: "App\Models\Student_model"
+in SYSTEMPATH/Model.php on line 736.
+ 1 SYSTEMPATH/Model.php(736): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields()
+ 2 SYSTEMPATH/BaseModel.php(763): CodeIgniter\Model->doProtectFieldsForInsert()
+ 3 SYSTEMPATH/Model.php(715): CodeIgniter\BaseModel->insert()
+ 4 APPPATH/Controllers/Student.php(70): CodeIgniter\Model->insert()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 12:28:32 --> Allowed fields must be specified for model: "App\Models\Student_model"
+in SYSTEMPATH/Model.php on line 736.
+ 1 SYSTEMPATH/Model.php(736): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields()
+ 2 SYSTEMPATH/BaseModel.php(763): CodeIgniter\Model->doProtectFieldsForInsert()
+ 3 SYSTEMPATH/Model.php(715): CodeIgniter\BaseModel->insert()
+ 4 APPPATH/Controllers/Student.php(70): CodeIgniter\Model->insert()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 12:29:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 12:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-30 12:29:51 --> syntax error, unexpected ''course'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+in APPPATH/Models/Student_model.php on line 16.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 APPPATH/Controllers/Student.php(9): spl_autoload_call()
+ 5 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Student->__construct()
+ 6 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 12:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-30 12:30:20 --> mysqli_sql_exception: Unknown column 'added_at' in 'field list' in /var/www/html/ci4/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/html/ci4/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/html/ci4/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ci4/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ci4/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ci4/system/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/ci4/system/BaseModel.php(788): CodeIgniter\Model->doInsert()
+#6 /var/www/html/ci4/system/Model.php(715): CodeIgniter\BaseModel->insert()
+#7 /var/www/html/ci4/app/Controllers/Student.php(70): CodeIgniter\Model->insert()
+#8 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+#9 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-30 12:30:20 --> Unknown column 'added_at' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(788): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(715): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Controllers/Student.php(70): CodeIgniter\Model->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->insertStudent()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 12:30:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 12:31:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 12:31:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 12:31:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 12:31:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 12:31:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 12:32:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 12:33:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 12:33:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 12:33:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 12:33:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 12:33:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 12:34:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 12:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 12:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-30 12:36:05 --> Undefined variable: students
+in APPPATH/Views/student/student_body.php on line 13.
+ 1 APPPATH/Views/student/student_body.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student.php(9): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Student.php(25): view()
+10 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+11 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 12:38:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-30 12:39:35 --> syntax error, unexpected '<'
+in APPPATH/Controllers/Student.php on line 21.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/CodeIgniter.php(877): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 12:41:54 --> syntax error, unexpected 'echo' (T_ECHO)
+in APPPATH/Controllers/Student.php on line 21.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/CodeIgniter.php(877): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 12:42:02 --> Argument 3 passed to view() must be of the type array, bool given, called in /var/www/html/ci4/app/Controllers/Student.php on line 21
+in SYSTEMPATH/Common.php on line 1176.
+ 1 APPPATH/Controllers/Student.php(21): view()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 12:42:17 --> Call to undefined method App\Controllers\Student::include()
+in APPPATH/Controllers/Student.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 12:42:22 --> Call to undefined method App\Controllers\Student::include()
+in APPPATH/Controllers/Student.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 12:45:09 --> Argument 3 passed to view() must be of the type array, bool given, called in /var/www/html/ci4/app/Controllers/Student.php on line 21
+in SYSTEMPATH/Common.php on line 1176.
+ 1 APPPATH/Controllers/Student.php(21): view()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 12:45:12 --> Argument 3 passed to view() must be of the type array, bool given, called in /var/www/html/ci4/app/Controllers/Student.php on line 21
+in SYSTEMPATH/Common.php on line 1176.
+ 1 APPPATH/Controllers/Student.php(21): view()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 12:45:39 --> Argument 3 passed to view() must be of the type array, bool given, called in /var/www/html/ci4/app/Controllers/Student.php on line 21
+in SYSTEMPATH/Common.php on line 1176.
+ 1 APPPATH/Controllers/Student.php(21): view()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 12:45:42 --> Argument 3 passed to view() must be of the type array, bool given, called in /var/www/html/ci4/app/Controllers/Student.php on line 21
+in SYSTEMPATH/Common.php on line 1176.
+ 1 APPPATH/Controllers/Student.php(21): view()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 12:46:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 12:46:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 12:46:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 12:46:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 12:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 12:48:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-30 12:49:20 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+in APPPATH/Views/student/student_body.php on line 40.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-30 12:49:34 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+in APPPATH/Views/student/student_body.php on line 40.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-30 12:50:11 --> syntax error, unexpected 'echo' (T_ECHO)
+in APPPATH/Views/student/student_body.php on line 40.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 3 APPPATH/Views/student/student.php(7): CodeIgniter\View\View->include()
+ 4 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+ 5 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Student.php(21): view()
+ 8 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+ 9 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 12:50:39 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+in APPPATH/Views/student/student_body.php on line 40.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-10-30 12:51:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 12:51:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 12:51:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-30 12:51:24 --> Undefined offset: 4
+in APPPATH/Views/student/student_body.php on line 41.
+ 1 APPPATH/Views/student/student_body.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student.php(7): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Student.php(21): view()
+10 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+11 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 12:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-30 12:51:35 --> Undefined offset: 4
+in APPPATH/Views/student/student_body.php on line 41.
+ 1 APPPATH/Views/student/student_body.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student.php(7): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Student.php(21): view()
+10 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+11 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 12:51:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-30 12:51:44 --> Undefined offset: 4
+in APPPATH/Views/student/student_body.php on line 41.
+ 1 APPPATH/Views/student/student_body.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student.php(7): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Student.php(21): view()
+10 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+11 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 12:52:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-30 12:52:37 --> Undefined offset: 4
+in APPPATH/Views/student/student_body.php on line 41.
+ 1 APPPATH/Views/student/student_body.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student.php(7): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Student.php(21): view()
+10 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+11 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 12:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 12:54:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 12:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 12:56:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-30 12:56:38 --> Undefined index: 1,3
+in APPPATH/Views/student/student_body.php on line 42.
+ 1 APPPATH/Views/student/student_body.php(42): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student.php(7): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Student.php(29): view()
+10 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+11 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 12:57:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-30 12:57:04 --> Undefined index: 1,3
+in APPPATH/Views/student/student_body.php on line 42.
+ 1 APPPATH/Views/student/student_body.php(42): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student.php(7): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Student.php(29): view()
+10 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+11 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 12:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-30 12:59:10 --> Undefined index: 1,3
+in APPPATH/Views/student/student_body.php on line 42.
+ 1 APPPATH/Views/student/student_body.php(42): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student.php(7): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Student.php(31): view()
+10 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+11 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 13:03:13 --> syntax error, unexpected '<'
+in APPPATH/Views/student/student_body.php on line 46.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 3 APPPATH/Views/student/student.php(7): CodeIgniter\View\View->include()
+ 4 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+ 5 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Student.php(28): view()
+ 8 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+ 9 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 13:03:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 13:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 13:04:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-30 13:04:49 --> syntax error, unexpected '}', expecting ';' or ','
+in APPPATH/Views/student/student_body.php on line 40.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 3 APPPATH/Views/student/student.php(7): CodeIgniter\View\View->include()
+ 4 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+ 5 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Student.php(28): view()
+ 8 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+ 9 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-30 13:05:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 13:05:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 13:06:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 13:06:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 13:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 13:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 13:08:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 13:08:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 13:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 13:09:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 13:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 13:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 13:10:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 13:11:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 13:11:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 13:11:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-30 13:13:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

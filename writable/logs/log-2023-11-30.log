@@ -1,0 +1,565 @@
+INFO - 2023-11-30 13:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 13:07:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 13:07:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 13:07:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 13:07:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 13:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 13:08:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 13:08:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 13:08:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 13:08:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 13:08:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 13:08:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 13:08:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 13:10:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 13:11:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 13:12:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 13:12:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 13:12:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-30 13:12:46 --> Undefined index: 
+in APPPATH/Views/student/student_body.php on line 45.
+ 1 APPPATH/Views/student/student_body.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student.php(7): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Student.php(30): view()
+10 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+11 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 13:12:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 13:12:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-30 13:12:46 --> Undefined index: 
+in APPPATH/Views/student/student_body.php on line 45.
+ 1 APPPATH/Views/student/student_body.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student.php(7): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Student.php(30): view()
+10 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+11 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 13:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 13:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-30 13:12:52 --> Undefined index: 
+in APPPATH/Views/student/student_body.php on line 45.
+ 1 APPPATH/Views/student/student_body.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student.php(7): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Student.php(30): view()
+10 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+11 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 13:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 13:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-30 13:12:52 --> Undefined index: 
+in APPPATH/Views/student/student_body.php on line 45.
+ 1 APPPATH/Views/student/student_body.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student.php(7): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Student.php(30): view()
+10 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+11 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 13:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 13:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-30 13:12:52 --> Undefined index: 
+in APPPATH/Views/student/student_body.php on line 45.
+ 1 APPPATH/Views/student/student_body.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student.php(7): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Student.php(30): view()
+10 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+11 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 13:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 13:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-30 13:12:53 --> Undefined index: 
+in APPPATH/Views/student/student_body.php on line 45.
+ 1 APPPATH/Views/student/student_body.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student.php(7): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Student.php(30): view()
+10 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+11 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 13:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 13:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-30 13:12:53 --> Undefined index: 
+in APPPATH/Views/student/student_body.php on line 45.
+ 1 APPPATH/Views/student/student_body.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student.php(7): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Student.php(30): view()
+10 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+11 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 13:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 13:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-30 13:12:53 --> Undefined index: 
+in APPPATH/Views/student/student_body.php on line 45.
+ 1 APPPATH/Views/student/student_body.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student.php(7): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Student.php(30): view()
+10 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+11 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 13:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 13:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-30 13:12:53 --> Undefined index: 
+in APPPATH/Views/student/student_body.php on line 45.
+ 1 APPPATH/Views/student/student_body.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student.php(7): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Student.php(30): view()
+10 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+11 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 13:12:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 13:12:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-30 13:12:54 --> Undefined index: 
+in APPPATH/Views/student/student_body.php on line 45.
+ 1 APPPATH/Views/student/student_body.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student.php(7): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Student.php(30): view()
+10 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+11 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 13:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 13:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-30 13:13:03 --> Undefined index: 
+in APPPATH/Views/student/student_body.php on line 45.
+ 1 APPPATH/Views/student/student_body.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student.php(7): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Student.php(30): view()
+10 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+11 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 13:13:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-30 13:13:34 --> Undefined index: 
+in APPPATH/Views/student/student_body.php on line 45.
+ 1 APPPATH/Views/student/student_body.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student.php(7): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Student.php(30): view()
+10 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+11 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 13:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-30 13:13:41 --> Undefined index: 
+in APPPATH/Views/student/student_body.php on line 45.
+ 1 APPPATH/Views/student/student_body.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student.php(7): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Student.php(30): view()
+10 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+11 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 13:13:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-30 13:13:59 --> Undefined index: 
+in APPPATH/Views/student/student_body.php on line 45.
+ 1 APPPATH/Views/student/student_body.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student.php(7): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Student.php(30): view()
+10 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+11 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 13:14:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-30 13:14:02 --> Undefined index: 
+in APPPATH/Views/student/student_body.php on line 45.
+ 1 APPPATH/Views/student/student_body.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student.php(7): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Student.php(30): view()
+10 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+11 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 13:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-30 13:14:16 --> Undefined index: 
+in APPPATH/Views/student/student_body.php on line 45.
+ 1 APPPATH/Views/student/student_body.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student.php(7): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Student.php(31): view()
+10 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+11 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 13:14:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-30 13:14:20 --> Undefined index: 
+in APPPATH/Views/student/student_body.php on line 45.
+ 1 APPPATH/Views/student/student_body.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student.php(7): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Student.php(31): view()
+10 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+11 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 13:14:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-30 13:14:46 --> Undefined index: 
+in APPPATH/Views/student/student_body.php on line 45.
+ 1 APPPATH/Views/student/student_body.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student.php(7): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Student.php(31): view()
+10 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+11 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 13:14:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-30 13:14:53 --> Undefined index: 
+in APPPATH/Views/student/student_body.php on line 45.
+ 1 APPPATH/Views/student/student_body.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student.php(7): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Student.php(31): view()
+10 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+11 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 13:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-30 13:15:38 --> Undefined index: 
+in APPPATH/Views/student/student_body.php on line 45.
+ 1 APPPATH/Views/student/student_body.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student.php(7): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Student.php(31): view()
+10 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+11 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 13:19:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-30 13:19:07 --> Undefined index: 
+in APPPATH/Views/student/student_body.php on line 45.
+ 1 APPPATH/Views/student/student_body.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student.php(7): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Student.php(31): view()
+10 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+11 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-30 13:22:44 --> mysqli_sql_exception: Table 'test.customers' doesn't exist in /var/www/html/ci4/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/html/ci4/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/html/ci4/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ci4/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ci4/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ci4/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ci4/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /var/www/html/ci4/app/Controllers/Student.php(18): CodeIgniter\BaseModel->findAll()
+#7 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\Student->index()
+#8 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-30 13:22:44 --> Table 'test.customers' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/Student.php(18): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-30 13:22:46 --> mysqli_sql_exception: Table 'test.customers' doesn't exist in /var/www/html/ci4/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/html/ci4/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/html/ci4/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ci4/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ci4/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ci4/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ci4/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /var/www/html/ci4/app/Controllers/Student.php(18): CodeIgniter\BaseModel->findAll()
+#7 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\Student->index()
+#8 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-30 13:22:46 --> Table 'test.customers' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/Student.php(18): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-30 13:23:25 --> mysqli_sql_exception: Table 'test.customers' doesn't exist in /var/www/html/ci4/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/html/ci4/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/html/ci4/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ci4/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ci4/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ci4/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ci4/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /var/www/html/ci4/app/Controllers/Student.php(18): CodeIgniter\BaseModel->findAll()
+#7 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\Student->index()
+#8 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-30 13:23:25 --> Table 'test.customers' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/Student.php(18): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-30 13:24:17 --> mysqli_sql_exception: Table 'test.customers' doesn't exist in /var/www/html/ci4/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/html/ci4/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/html/ci4/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ci4/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ci4/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ci4/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ci4/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /var/www/html/ci4/app/Controllers/Student.php(18): CodeIgniter\BaseModel->findAll()
+#7 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\Student->index()
+#8 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-30 13:24:17 --> Table 'test.customers' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/Student.php(18): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-30 13:24:20 --> mysqli_sql_exception: Table 'test.customers' doesn't exist in /var/www/html/ci4/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/html/ci4/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/html/ci4/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ci4/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ci4/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ci4/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ci4/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /var/www/html/ci4/app/Controllers/Student.php(18): CodeIgniter\BaseModel->findAll()
+#7 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\Student->index()
+#8 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-30 13:24:20 --> Table 'test.customers' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/Student.php(18): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 13:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-30 13:26:42 --> Undefined index: 
+in APPPATH/Views/student/student_body.php on line 49.
+ 1 APPPATH/Views/student/student_body.php(49): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student.php(7): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Student.php(31): view()
+10 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+11 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 13:27:39 --> syntax error, unexpected 'else' (T_ELSE)
+in APPPATH/Views/student/student_body.php on line 51.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 3 APPPATH/Views/student/student.php(7): CodeIgniter\View\View->include()
+ 4 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+ 5 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Student.php(31): view()
+ 8 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+ 9 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 13:28:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-30 13:28:27 --> Undefined index: 
+in APPPATH/Views/student/student_body.php on line 50.
+ 1 APPPATH/Views/student/student_body.php(50): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student.php(7): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Student.php(31): view()
+10 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+11 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 13:28:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-30 13:28:33 --> Undefined index: 
+in APPPATH/Views/student/student_body.php on line 50.
+ 1 APPPATH/Views/student/student_body.php(50): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student.php(7): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Student.php(31): view()
+10 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+11 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 13:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-30 13:28:53 --> Undefined index: 
+in APPPATH/Views/student/student_body.php on line 50.
+ 1 APPPATH/Views/student/student_body.php(50): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student_body.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(467): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/student/student.php(7): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/student/student.php')
+ 7 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Student.php(31): view()
+10 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->index()
+11 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-30 13:29:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 13:30:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 13:32:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 13:34:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-30 13:37:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

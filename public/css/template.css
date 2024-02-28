@@ -1,0 +1,14 @@
+header {
+    background-color: #E2E2E2;
+    height: 10vh;
+    padding: 0px 15px;
+}
+.page-body {
+    height: 85vh;
+    padding: 0px 15px;
+}
+footer {
+    background-color: #EEEEEE;
+    height: 5vh;
+    padding: 0px 15px;
+}

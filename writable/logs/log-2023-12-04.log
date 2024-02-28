@@ -1,0 +1,191 @@
+INFO - 2023-12-04 05:41:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-04 05:41:25 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in /var/www/html/ci4/system/Model.php on line 238
+in SYSTEMPATH/Database/BaseResult.php on line 104.
+ 1 SYSTEMPATH/Model.php(238): CodeIgniter\Database\BaseResult->getResult()
+ 2 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 3 APPPATH/Controllers/States.php(17): CodeIgniter\BaseModel->findAll()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->index()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-04 05:41:28 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in /var/www/html/ci4/system/Model.php on line 238
+in SYSTEMPATH/Database/BaseResult.php on line 104.
+ 1 SYSTEMPATH/Model.php(238): CodeIgniter\Database\BaseResult->getResult()
+ 2 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 3 APPPATH/Controllers/States.php(17): CodeIgniter\BaseModel->findAll()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->index()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-04 05:41:40 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in /var/www/html/ci4/system/Model.php on line 238
+in SYSTEMPATH/Database/BaseResult.php on line 104.
+ 1 SYSTEMPATH/Model.php(238): CodeIgniter\Database\BaseResult->getResult()
+ 2 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 3 APPPATH/Controllers/States.php(66): CodeIgniter\BaseModel->findAll()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->getStates()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-04 05:42:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-04 05:42:15 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in /var/www/html/ci4/system/Model.php on line 238
+in SYSTEMPATH/Database/BaseResult.php on line 104.
+ 1 SYSTEMPATH/Model.php(238): CodeIgniter\Database\BaseResult->getResult()
+ 2 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 3 APPPATH/Controllers/States.php(17): CodeIgniter\BaseModel->findAll()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->index()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-04 05:42:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-04 05:47:37 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in /var/www/html/ci4/system/Model.php on line 238
+in SYSTEMPATH/Database/BaseResult.php on line 104.
+ 1 SYSTEMPATH/Model.php(238): CodeIgniter\Database\BaseResult->getResult()
+ 2 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 3 APPPATH/Controllers/States.php(17): CodeIgniter\BaseModel->findAll()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->index()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-04 05:47:46 --> Error connecting to the database: Error: Class 'SQLite3' not found in /var/www/html/ci4/system/Database/SQLite3/Connection.php:89
+Stack trace:
+#0 /var/www/html/ci4/system/Database/BaseConnection.php(391): CodeIgniter\Database\SQLite3\Connection->connect()
+#1 /var/www/html/ci4/system/Database/SQLite3/Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/ci4/system/Database/BaseConnection.php(574): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 /var/www/html/ci4/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ci4/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ci4/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /var/www/html/ci4/app/Controllers/States.php(17): CodeIgniter\BaseModel->findAll()
+#7 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\States->index()
+#8 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-12-04 05:47:46 --> Unable to connect to the database.
+Main connection [SQLite3]: Class 'SQLite3' not found
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/SQLite3/Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\SQLite3\Connection->initialize()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 6 APPPATH/Controllers/States.php(17): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->index()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-04 05:48:11 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in /var/www/html/ci4/system/Model.php on line 238
+in SYSTEMPATH/Database/BaseResult.php on line 104.
+ 1 SYSTEMPATH/Model.php(238): CodeIgniter\Database\BaseResult->getResult()
+ 2 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 3 APPPATH/Controllers/Country.php(18): CodeIgniter\BaseModel->findAll()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Country->index()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-04 05:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-04 05:54:38 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in /var/www/html/ci4/system/Model.php on line 238
+in SYSTEMPATH/Database/BaseResult.php on line 104.
+ 1 SYSTEMPATH/Model.php(238): CodeIgniter\Database\BaseResult->getResult()
+ 2 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 3 APPPATH/Controllers/Country.php(18): CodeIgniter\BaseModel->findAll()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Country->index()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-04 05:54:40 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in /var/www/html/ci4/system/Model.php on line 238
+in SYSTEMPATH/Database/BaseResult.php on line 104.
+ 1 SYSTEMPATH/Model.php(238): CodeIgniter\Database\BaseResult->getResult()
+ 2 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 3 APPPATH/Controllers/Country.php(18): CodeIgniter\BaseModel->findAll()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Country->index()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-04 05:54:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-04 05:55:01 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in /var/www/html/ci4/system/Model.php on line 238
+in SYSTEMPATH/Database/BaseResult.php on line 104.
+ 1 SYSTEMPATH/Model.php(238): CodeIgniter\Database\BaseResult->getResult()
+ 2 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 3 APPPATH/Controllers/Country.php(18): CodeIgniter\BaseModel->findAll()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Country->index()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-04 05:56:12 --> tests is not a valid database connection group.
+in SYSTEMPATH/Database/Config.php on line 69.
+ 1 APPPATH/Models/Country_model.php(31): CodeIgniter\Database\Config::connect()
+ 2 APPPATH/Controllers/Country.php(13): App\Models\Country_model->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Country->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-04 05:56:13 --> tests is not a valid database connection group.
+in SYSTEMPATH/Database/Config.php on line 69.
+ 1 APPPATH/Models/Country_model.php(31): CodeIgniter\Database\Config::connect()
+ 2 APPPATH/Controllers/Country.php(13): App\Models\Country_model->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Country->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-04 05:56:28 --> tests is not a valid database connection group.
+in SYSTEMPATH/Database/Config.php on line 69.
+ 1 SYSTEMPATH/Model.php(151): CodeIgniter\Database\Config::connect()
+ 2 APPPATH/Models/Country_model.php(30): CodeIgniter\Model->__construct()
+ 3 APPPATH/Controllers/Country.php(13): App\Models\Country_model->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Country->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-04 05:56:29 --> tests is not a valid database connection group.
+in SYSTEMPATH/Database/Config.php on line 69.
+ 1 SYSTEMPATH/Model.php(151): CodeIgniter\Database\Config::connect()
+ 2 APPPATH/Models/Country_model.php(30): CodeIgniter\Model->__construct()
+ 3 APPPATH/Controllers/Country.php(13): App\Models\Country_model->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Country->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-04 05:56:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 05:56:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 05:56:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-04 05:57:06 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in /var/www/html/ci4/system/Model.php on line 238
+in SYSTEMPATH/Database/BaseResult.php on line 104.
+ 1 SYSTEMPATH/Model.php(238): CodeIgniter\Database\BaseResult->getResult()
+ 2 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 3 APPPATH/Controllers/Country.php(18): CodeIgniter\BaseModel->findAll()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Country->index()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-04 05:57:08 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in /var/www/html/ci4/system/Model.php on line 238
+in SYSTEMPATH/Database/BaseResult.php on line 104.
+ 1 SYSTEMPATH/Model.php(238): CodeIgniter\Database\BaseResult->getResult()
+ 2 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 3 APPPATH/Controllers/Country.php(18): CodeIgniter\BaseModel->findAll()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Country->index()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-04 05:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 05:57:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-04 05:57:36 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in /var/www/html/ci4/system/Model.php on line 238
+in SYSTEMPATH/Database/BaseResult.php on line 104.
+ 1 SYSTEMPATH/Model.php(238): CodeIgniter\Database\BaseResult->getResult()
+ 2 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 3 APPPATH/Controllers/Country.php(18): CodeIgniter\BaseModel->findAll()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Country->index()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-04 05:58:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 05:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 05:58:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 05:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 05:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 05:59:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 05:59:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 06:00:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 06:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 06:03:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 06:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-04 06:26:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

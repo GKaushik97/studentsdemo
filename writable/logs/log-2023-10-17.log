@@ -1,0 +1,1432 @@
+CRITICAL - 2023-10-17 06:37:49 --> Call to undefined method CodeIgniter\Database\SQLite3\Connection::select()
+in APPPATH/Models/Pages_model.php on line 18.
+ 1 APPPATH/Controllers/Pages.php(22): App\Models\Pages_model->getCountries()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 06:37:50 --> Call to undefined method CodeIgniter\Database\SQLite3\Connection::select()
+in APPPATH/Models/Pages_model.php on line 18.
+ 1 APPPATH/Controllers/Pages.php(22): App\Models\Pages_model->getCountries()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 06:39:06 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH/Models/Pages_model.php on line 18.
+ 1 APPPATH/Controllers/Pages.php(22): App\Models\Pages_model->getCountries()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 06:39:11 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH/Models/Pages_model.php on line 18.
+ 1 APPPATH/Controllers/Pages.php(22): App\Models\Pages_model->getCountries()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 06:49:56 --> Call to undefined method CodeIgniter\Database\SQLite3\Connection::select()
+in APPPATH/Models/Pages_model.php on line 18.
+ 1 APPPATH/Controllers/Pages.php(22): App\Models\Pages_model->getCountries()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 06:53:53 --> Undefined variable: request
+in APPPATH/Controllers/Pages.php on line 20.
+ 1 APPPATH/Controllers/Pages.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 06:53:54 --> Undefined variable: request
+in APPPATH/Controllers/Pages.php on line 20.
+ 1 APPPATH/Controllers/Pages.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 06:54:21 --> Undefined variable: request
+in APPPATH/Controllers/Pages.php on line 21.
+ 1 APPPATH/Controllers/Pages.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 06:54:23 --> Undefined variable: request
+in APPPATH/Controllers/Pages.php on line 21.
+ 1 APPPATH/Controllers/Pages.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 06:56:40 --> Call to undefined method CodeIgniter\Database\SQLite3\Connection::select()
+in APPPATH/Models/Pages_model.php on line 18.
+ 1 APPPATH/Controllers/Pages.php(24): App\Models\Pages_model->getCountries()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 07:42:23 --> Call to undefined function App\Models\select()
+in APPPATH/Models/Pages_model.php on line 18.
+ 1 APPPATH/Controllers/Pages.php(25): App\Models\Pages_model->getCountries()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 07:42:24 --> Call to undefined function App\Models\select()
+in APPPATH/Models/Pages_model.php on line 18.
+ 1 APPPATH/Controllers/Pages.php(25): App\Models\Pages_model->getCountries()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 07:43:08 --> syntax error, unexpected 'protected' (T_PROTECTED)
+in APPPATH/Models/Pages_model.php on line 18.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/Config/Factories.php(270): class_exists()
+ 6 SYSTEMPATH/Config/Factories.php(196): CodeIgniter\Config\Factories::locateClass()
+ 7 SYSTEMPATH/Config/Factories.php(155): CodeIgniter\Config\Factories::getDefinedInstance()
+ 8 SYSTEMPATH/Common.php(827): CodeIgniter\Config\Factories::__callStatic()
+ 9 APPPATH/Controllers/Pages.php(9): model()
+10 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Pages->__construct()
+11 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+12 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 07:43:21 --> Call to undefined function App\Models\select()
+in APPPATH/Models/Pages_model.php on line 18.
+ 1 APPPATH/Controllers/Pages.php(25): App\Models\Pages_model->getCountries()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 07:43:44 --> Call to undefined function App\Models\select()
+in APPPATH/Models/Pages_model.php on line 12.
+ 1 APPPATH/Controllers/Pages.php(25): App\Models\Pages_model->getCountries()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 07:43:48 --> Call to undefined function App\Models\select()
+in APPPATH/Models/Pages_model.php on line 12.
+ 1 APPPATH/Controllers/Pages.php(25): App\Models\Pages_model->getCountries()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-17 07:47:38 --> Error connecting to the database: Error: Class 'SQLite3' not found in /var/www/html/ci4/system/Database/SQLite3/Connection.php:89
+Stack trace:
+#0 /var/www/html/ci4/system/Database/BaseConnection.php(391): CodeIgniter\Database\SQLite3\Connection->connect()
+#1 /var/www/html/ci4/system/Database/SQLite3/Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/ci4/system/Database/BaseConnection.php(574): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 /var/www/html/ci4/app/Models/Pages_model.php(13): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ci4/app/Controllers/Pages.php(25): App\Models\Pages_model->getCountries()
+#5 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+#6 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-17 07:47:38 --> Unable to connect to the database.
+Main connection [SQLite3]: Class 'SQLite3' not found
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/SQLite3/Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\SQLite3\Connection->initialize()
+ 3 APPPATH/Models/Pages_model.php(13): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Controllers/Pages.php(25): App\Models\Pages_model->getCountries()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-17 07:47:51 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'user'@'localhost' (using password: YES) in /var/www/html/ci4/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /var/www/html/ci4/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /var/www/html/ci4/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/ci4/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/ci4/app/Models/Pages_model.php(13): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ci4/app/Controllers/Pages.php(25): App\Models\Pages_model->getCountries()
+#5 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+#6 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for **** '****'@'localhost' (using password: YES) in /var/www/html/ci4/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/ci4/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/ci4/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/ci4/app/Models/Pages_model.php(13): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/ci4/app/Controllers/Pages.php(25): App\Models\Pages_model->getCountries()
+#4 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+#5 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-17 07:47:51 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for **** '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/Pages_model.php(13): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Pages.php(25): App\Models\Pages_model->getCountries()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-17 07:48:56 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'user'@'localhost' (using password: YES) in /var/www/html/ci4/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /var/www/html/ci4/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /var/www/html/ci4/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/ci4/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/ci4/app/Models/Pages_model.php(13): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ci4/app/Controllers/Pages.php(25): App\Models\Pages_model->getCountries()
+#5 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+#6 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for **** '****'@'localhost' (using password: YES) in /var/www/html/ci4/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/ci4/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/ci4/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/ci4/app/Models/Pages_model.php(13): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/ci4/app/Controllers/Pages.php(25): App\Models\Pages_model->getCountries()
+#4 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+#5 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-17 07:48:56 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for **** '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/Pages_model.php(13): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Pages.php(25): App\Models\Pages_model->getCountries()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-17 07:56:43 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'user'@'localhost' (using password: YES) in /var/www/html/ci4/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /var/www/html/ci4/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /var/www/html/ci4/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/ci4/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/ci4/app/Models/Pages_model.php(13): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ci4/app/Controllers/Pages.php(25): App\Models\Pages_model->getCountries()
+#5 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+#6 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for **** '****'@'localhost' (using password: YES) in /var/www/html/ci4/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/ci4/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/ci4/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/ci4/app/Models/Pages_model.php(13): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/ci4/app/Controllers/Pages.php(25): App\Models\Pages_model->getCountries()
+#4 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+#5 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-17 07:56:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for **** '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/Pages_model.php(13): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Pages.php(25): App\Models\Pages_model->getCountries()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-17 07:56:46 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'user'@'localhost' (using password: YES) in /var/www/html/ci4/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /var/www/html/ci4/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /var/www/html/ci4/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/ci4/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/ci4/app/Models/Pages_model.php(13): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ci4/app/Controllers/Pages.php(25): App\Models\Pages_model->getCountries()
+#5 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+#6 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for **** '****'@'localhost' (using password: YES) in /var/www/html/ci4/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/ci4/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/ci4/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/ci4/app/Models/Pages_model.php(13): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/ci4/app/Controllers/Pages.php(25): App\Models\Pages_model->getCountries()
+#4 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+#5 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-17 07:56:46 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for **** '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/Pages_model.php(13): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Pages.php(25): App\Models\Pages_model->getCountries()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-17 07:56:59 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'user'@'localhost' (using password: YES) in /var/www/html/ci4/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /var/www/html/ci4/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /var/www/html/ci4/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/ci4/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/ci4/app/Models/Pages_model.php(13): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ci4/app/Controllers/Pages.php(25): App\Models\Pages_model->getCountries()
+#5 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+#6 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for **** '****'@'localhost' (using password: YES) in /var/www/html/ci4/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/ci4/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/ci4/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/ci4/app/Models/Pages_model.php(13): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/ci4/app/Controllers/Pages.php(25): App\Models\Pages_model->getCountries()
+#4 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+#5 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-17 07:56:59 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for **** '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/Pages_model.php(13): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Pages.php(25): App\Models\Pages_model->getCountries()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-17 07:57:02 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'user'@'localhost' (using password: YES) in /var/www/html/ci4/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /var/www/html/ci4/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /var/www/html/ci4/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/ci4/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/ci4/app/Models/Pages_model.php(13): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ci4/app/Controllers/Pages.php(25): App\Models\Pages_model->getCountries()
+#5 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+#6 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for **** '****'@'localhost' (using password: YES) in /var/www/html/ci4/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/ci4/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/ci4/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/ci4/app/Models/Pages_model.php(13): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/ci4/app/Controllers/Pages.php(25): App\Models\Pages_model->getCountries()
+#4 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+#5 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-17 07:57:02 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for **** '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/Pages_model.php(13): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Pages.php(25): App\Models\Pages_model->getCountries()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-17 08:37:08 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' in /var/www/html/ci4/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /var/www/html/ci4/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /var/www/html/ci4/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/ci4/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/ci4/app/Models/Pages_model.php(13): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ci4/app/Controllers/Pages.php(25): App\Models\Pages_model->getCountries()
+#5 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+#6 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' in /var/www/html/ci4/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/ci4/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/ci4/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/ci4/app/Models/Pages_model.php(13): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/ci4/app/Controllers/Pages.php(25): App\Models\Pages_model->getCountries()
+#4 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+#5 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-17 08:37:08 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost'
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/Pages_model.php(13): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Pages.php(25): App\Models\Pages_model->getCountries()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-17 09:10:14 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /var/www/html/ci4/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /var/www/html/ci4/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /var/www/html/ci4/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/ci4/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/ci4/app/Models/Pages_model.php(13): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ci4/app/Controllers/Pages.php(25): App\Models\Pages_model->getCountries()
+#5 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+#6 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in /var/www/html/ci4/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/ci4/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/ci4/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/ci4/app/Models/Pages_model.php(13): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/ci4/app/Controllers/Pages.php(25): App\Models\Pages_model->getCountries()
+#4 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+#5 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-17 09:10:14 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/Pages_model.php(13): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Pages.php(25): App\Models\Pages_model->getCountries()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-17 09:10:34 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'test' in /var/www/html/ci4/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /var/www/html/ci4/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /var/www/html/ci4/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/ci4/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/ci4/app/Models/Pages_model.php(13): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ci4/app/Controllers/Pages.php(25): App\Models\Pages_model->getCountries()
+#5 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+#6 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'test' in /var/www/html/ci4/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/ci4/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/ci4/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/ci4/app/Models/Pages_model.php(13): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/ci4/app/Controllers/Pages.php(25): App\Models\Pages_model->getCountries()
+#4 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+#5 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-17 09:10:34 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'test'
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/Pages_model.php(13): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Pages.php(25): App\Models\Pages_model->getCountries()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-17 09:12:51 --> Error connecting to the database: Error: Class 'SQLite3' not found in /var/www/html/ci4/system/Database/SQLite3/Connection.php:89
+Stack trace:
+#0 /var/www/html/ci4/system/Database/BaseConnection.php(391): CodeIgniter\Database\SQLite3\Connection->connect()
+#1 /var/www/html/ci4/system/Database/SQLite3/Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/ci4/system/Database/BaseConnection.php(574): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 /var/www/html/ci4/app/Models/Pages_model.php(13): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ci4/app/Controllers/Pages.php(25): App\Models\Pages_model->getCountries()
+#5 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+#6 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-17 09:12:51 --> Unable to connect to the database.
+Main connection [SQLite3]: Class 'SQLite3' not found
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/SQLite3/Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\SQLite3\Connection->initialize()
+ 3 APPPATH/Models/Pages_model.php(13): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Controllers/Pages.php(25): App\Models\Pages_model->getCountries()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 09:15:54 --> Undefined variable: db
+in APPPATH/Models/Pages_model.php on line 18.
+ 1 APPPATH/Models/Pages_model.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Pages.php(25): App\Models\Pages_model->getCountries()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 09:17:20 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH/Models/Pages_model.php on line 18.
+ 1 APPPATH/Controllers/Pages.php(26): App\Models\Pages_model->getCountries1()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 09:18:09 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::findAll()
+in APPPATH/Models/Pages_model.php on line 18.
+ 1 APPPATH/Controllers/Pages.php(26): App\Models\Pages_model->getCountries1()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 09:20:01 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::findAll()
+in APPPATH/Models/Pages_model.php on line 18.
+ 1 APPPATH/Controllers/Pages.php(26): App\Models\Pages_model->getCountries1()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 09:23:11 --> Call to undefined method App\Models\Pages_model::getCountries1
+in SYSTEMPATH/Model.php on line 873.
+ 1 APPPATH/Controllers/Pages.php(26): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 09:23:13 --> Call to undefined method App\Models\Pages_model::getCountries1
+in SYSTEMPATH/Model.php on line 873.
+ 1 APPPATH/Controllers/Pages.php(26): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 09:23:45 --> Call to undefined method App\Models\Pages_model::getCars
+in SYSTEMPATH/Model.php on line 873.
+ 1 APPPATH/Controllers/Pages.php(24): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 09:23:47 --> Call to undefined method App\Models\Pages_model::getCars
+in SYSTEMPATH/Model.php on line 873.
+ 1 APPPATH/Controllers/Pages.php(24): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 09:24:30 --> Call to undefined method App\Models\Pages_model::getCars
+in SYSTEMPATH/Model.php on line 873.
+ 1 APPPATH/Controllers/Pages.php(24): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-17 09:25:06 --> Error connecting to the database: Error: Class 'SQLite3' not found in /var/www/html/ci4/system/Database/SQLite3/Connection.php:89
+Stack trace:
+#0 /var/www/html/ci4/system/Database/BaseConnection.php(391): CodeIgniter\Database\SQLite3\Connection->connect()
+#1 /var/www/html/ci4/system/Database/SQLite3/Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/ci4/system/Database/BaseConnection.php(574): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 /var/www/html/ci4/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ci4/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ci4/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /var/www/html/ci4/app/Controllers/Pages.php(24): CodeIgniter\BaseModel->findAll()
+#7 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+#8 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-17 09:25:06 --> Unable to connect to the database.
+Main connection [SQLite3]: Class 'SQLite3' not found
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/SQLite3/Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\SQLite3\Connection->initialize()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 6 APPPATH/Controllers/Pages.php(24): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 09:30:45 --> syntax error, unexpected '(', expecting ';'
+in APPPATH/Views/page.php on line 21.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Pages.php(31): view()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 09:31:12 --> syntax error, unexpected '(', expecting ';'
+in APPPATH/Views/page.php on line 21.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Pages.php(31): view()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-17 09:40:16 --> mysqli_sql_exception: Table 'test.country1' doesn't exist in /var/www/html/ci4/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/html/ci4/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/html/ci4/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ci4/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ci4/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ci4/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/ci4/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /var/www/html/ci4/app/Controllers/Pages.php(23): CodeIgniter\BaseModel->findAll()
+#7 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+#8 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-17 09:40:16 --> Table 'test.country1' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/Pages.php(23): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 09:43:56 --> Call to a member function findAll() on string
+in APPPATH/Controllers/Pages.php on line 19.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 09:51:08 --> Undefined variable: d
+in APPPATH/Controllers/Pages.php on line 23.
+ 1 APPPATH/Controllers/Pages.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 09:53:23 --> Cannot use object of type stdClass as array
+in APPPATH/Views/page.php on line 6.
+ 1 SYSTEMPATH/View/View.php(226): include()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Pages.php(24): view()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 09:53:31 --> Cannot use object of type stdClass as array
+in APPPATH/Views/page.php on line 6.
+ 1 SYSTEMPATH/View/View.php(226): include()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Pages.php(24): view()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 09:54:38 --> syntax error, unexpected 'foreach' (T_FOREACH)
+in APPPATH/Views/page.php on line 5.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Pages.php(24): view()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 09:54:50 --> syntax error, unexpected 'foreach' (T_FOREACH)
+in APPPATH/Views/page.php on line 5.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Pages.php(24): view()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 09:56:14 --> Cannot use object of type stdClass as array
+in APPPATH/Views/page.php on line 25.
+ 1 SYSTEMPATH/View/View.php(226): include()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Pages.php(24): view()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 10:05:29 --> Trying to get property 'name' of non-object
+in APPPATH/Views/page.php on line 6.
+ 1 APPPATH/Views/page.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/page.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pages.php(27): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 10:05:46 --> Trying to get property 'name' of non-object
+in APPPATH/Views/page.php on line 6.
+ 1 APPPATH/Views/page.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/page.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pages.php(27): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 10:05:47 --> Trying to get property 'name' of non-object
+in APPPATH/Views/page.php on line 6.
+ 1 APPPATH/Views/page.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/page.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pages.php(27): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 10:06:08 --> Trying to get property 'name' of non-object
+in APPPATH/Views/page.php on line 6.
+ 1 APPPATH/Views/page.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/page.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pages.php(27): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 10:06:20 --> Trying to get property 'name' of non-object
+in APPPATH/Views/page.php on line 6.
+ 1 APPPATH/Views/page.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/page.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pages.php(27): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 10:06:22 --> Trying to get property 'name' of non-object
+in APPPATH/Views/page.php on line 6.
+ 1 APPPATH/Views/page.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/page.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Pages.php(27): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Pages->viewPage()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 10:48:01 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result_array()
+in APPPATH/Models/States_model.php on line 14.
+ 1 APPPATH/Controllers/States.php(14): App\Models\States_model->getCountries()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->getStates()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 10:53:13 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::join(), 1 passed in /var/www/html/ci4/app/Models/States_model.php on line 18 and at least 2 expected
+in SYSTEMPATH/Database/BaseBuilder.php on line 617.
+ 1 APPPATH/Models/States_model.php(18): CodeIgniter\Database\BaseBuilder->join()
+ 2 APPPATH/Controllers/States.php(14): App\Models\States_model->getStateCountries()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->getStates()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 11:02:06 --> Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' (this will throw an Error in a future version of PHP)
+in APPPATH/Controllers/States.php on line 16.
+ 1 APPPATH/Controllers/States.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->getStates()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 11:20:57 --> Allowed fields must be specified for model: "App\Models\States_model"
+in SYSTEMPATH/Model.php on line 736.
+ 1 SYSTEMPATH/Model.php(736): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields()
+ 2 SYSTEMPATH/BaseModel.php(763): CodeIgniter\Model->doProtectFieldsForInsert()
+ 3 SYSTEMPATH/Model.php(715): CodeIgniter\BaseModel->insert()
+ 4 APPPATH/Controllers/States.php(34): CodeIgniter\Model->insert()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->stateInsert()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 11:22:30 --> Allowed fields must be specified for model: "App\Models\States_model"
+in SYSTEMPATH/Model.php on line 736.
+ 1 SYSTEMPATH/Model.php(736): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields()
+ 2 SYSTEMPATH/BaseModel.php(763): CodeIgniter\Model->doProtectFieldsForInsert()
+ 3 SYSTEMPATH/Model.php(715): CodeIgniter\BaseModel->insert()
+ 4 APPPATH/Controllers/States.php(34): CodeIgniter\Model->insert()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->stateInsert()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 11:23:29 --> Allowed fields must be specified for model: "App\Models\States_model"
+in SYSTEMPATH/Model.php on line 736.
+ 1 SYSTEMPATH/Model.php(736): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields()
+ 2 SYSTEMPATH/BaseModel.php(763): CodeIgniter\Model->doProtectFieldsForInsert()
+ 3 SYSTEMPATH/Model.php(715): CodeIgniter\BaseModel->insert()
+ 4 APPPATH/Controllers/States.php(34): CodeIgniter\Model->insert()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->stateInsert()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 11:23:30 --> Allowed fields must be specified for model: "App\Models\States_model"
+in SYSTEMPATH/Model.php on line 736.
+ 1 SYSTEMPATH/Model.php(736): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields()
+ 2 SYSTEMPATH/BaseModel.php(763): CodeIgniter\Model->doProtectFieldsForInsert()
+ 3 SYSTEMPATH/Model.php(715): CodeIgniter\BaseModel->insert()
+ 4 APPPATH/Controllers/States.php(34): CodeIgniter\Model->insert()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->stateInsert()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 11:23:36 --> Allowed fields must be specified for model: "App\Models\States_model"
+in SYSTEMPATH/Model.php on line 736.
+ 1 SYSTEMPATH/Model.php(736): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields()
+ 2 SYSTEMPATH/BaseModel.php(763): CodeIgniter\Model->doProtectFieldsForInsert()
+ 3 SYSTEMPATH/Model.php(715): CodeIgniter\BaseModel->insert()
+ 4 APPPATH/Controllers/States.php(34): CodeIgniter\Model->insert()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->stateInsert()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 11:29:08 --> Allowed fields must be specified for model: "App\Models\States_model"
+in SYSTEMPATH/Model.php on line 736.
+ 1 SYSTEMPATH/Model.php(736): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields()
+ 2 SYSTEMPATH/BaseModel.php(763): CodeIgniter\Model->doProtectFieldsForInsert()
+ 3 SYSTEMPATH/Model.php(715): CodeIgniter\BaseModel->insert()
+ 4 APPPATH/Controllers/States.php(34): CodeIgniter\Model->insert()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->stateInsert()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-17 12:15:44 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in /var/www/html/ci4/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/html/ci4/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/html/ci4/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ci4/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ci4/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ci4/system/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/ci4/system/BaseModel.php(788): CodeIgniter\Model->doInsert()
+#6 /var/www/html/ci4/system/Model.php(715): CodeIgniter\BaseModel->insert()
+#7 /var/www/html/ci4/system/BaseModel.php(698): CodeIgniter\Model->insert()
+#8 /var/www/html/ci4/app/Controllers/States.php(34): CodeIgniter\BaseModel->save()
+#9 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\States->stateInsert()
+#10 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-10-17 12:15:44 --> Unknown column 'created_at' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(788): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(715): CodeIgniter\BaseModel->insert()
+ 5 SYSTEMPATH/BaseModel.php(698): CodeIgniter\Model->insert()
+ 6 APPPATH/Controllers/States.php(34): CodeIgniter\BaseModel->save()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->stateInsert()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-17 12:16:28 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in /var/www/html/ci4/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/html/ci4/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/html/ci4/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ci4/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ci4/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ci4/system/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/ci4/system/BaseModel.php(788): CodeIgniter\Model->doInsert()
+#6 /var/www/html/ci4/system/Model.php(715): CodeIgniter\BaseModel->insert()
+#7 /var/www/html/ci4/system/BaseModel.php(698): CodeIgniter\Model->insert()
+#8 /var/www/html/ci4/app/Controllers/States.php(34): CodeIgniter\BaseModel->save()
+#9 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\States->stateInsert()
+#10 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-10-17 12:16:28 --> Unknown column 'created_at' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(788): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(715): CodeIgniter\BaseModel->insert()
+ 5 SYSTEMPATH/BaseModel.php(698): CodeIgniter\Model->insert()
+ 6 APPPATH/Controllers/States.php(34): CodeIgniter\BaseModel->save()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->stateInsert()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-17 12:17:00 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in /var/www/html/ci4/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/html/ci4/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/html/ci4/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ci4/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ci4/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ci4/system/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/ci4/system/BaseModel.php(788): CodeIgniter\Model->doInsert()
+#6 /var/www/html/ci4/system/Model.php(715): CodeIgniter\BaseModel->insert()
+#7 /var/www/html/ci4/system/BaseModel.php(698): CodeIgniter\Model->insert()
+#8 /var/www/html/ci4/app/Controllers/States.php(34): CodeIgniter\BaseModel->save()
+#9 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\States->stateInsert()
+#10 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-10-17 12:17:00 --> Unknown column 'created_at' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(788): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(715): CodeIgniter\BaseModel->insert()
+ 5 SYSTEMPATH/BaseModel.php(698): CodeIgniter\Model->insert()
+ 6 APPPATH/Controllers/States.php(34): CodeIgniter\BaseModel->save()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->stateInsert()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-17 12:17:05 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in /var/www/html/ci4/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/html/ci4/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/html/ci4/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ci4/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ci4/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ci4/system/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/ci4/system/BaseModel.php(788): CodeIgniter\Model->doInsert()
+#6 /var/www/html/ci4/system/Model.php(715): CodeIgniter\BaseModel->insert()
+#7 /var/www/html/ci4/system/BaseModel.php(698): CodeIgniter\Model->insert()
+#8 /var/www/html/ci4/app/Controllers/States.php(34): CodeIgniter\BaseModel->save()
+#9 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\States->stateInsert()
+#10 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-10-17 12:17:05 --> Unknown column 'created_at' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(788): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(715): CodeIgniter\BaseModel->insert()
+ 5 SYSTEMPATH/BaseModel.php(698): CodeIgniter\Model->insert()
+ 6 APPPATH/Controllers/States.php(34): CodeIgniter\BaseModel->save()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->stateInsert()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-17 12:17:48 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in /var/www/html/ci4/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/html/ci4/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/html/ci4/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ci4/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ci4/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ci4/system/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/ci4/system/BaseModel.php(788): CodeIgniter\Model->doInsert()
+#6 /var/www/html/ci4/system/Model.php(715): CodeIgniter\BaseModel->insert()
+#7 /var/www/html/ci4/system/BaseModel.php(698): CodeIgniter\Model->insert()
+#8 /var/www/html/ci4/app/Controllers/States.php(34): CodeIgniter\BaseModel->save()
+#9 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\States->stateInsert()
+#10 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-10-17 12:17:48 --> Unknown column 'created_at' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(788): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(715): CodeIgniter\BaseModel->insert()
+ 5 SYSTEMPATH/BaseModel.php(698): CodeIgniter\Model->insert()
+ 6 APPPATH/Controllers/States.php(34): CodeIgniter\BaseModel->save()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->stateInsert()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-17 12:17:54 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in /var/www/html/ci4/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/html/ci4/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/html/ci4/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ci4/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ci4/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ci4/system/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/ci4/system/BaseModel.php(788): CodeIgniter\Model->doInsert()
+#6 /var/www/html/ci4/system/Model.php(715): CodeIgniter\BaseModel->insert()
+#7 /var/www/html/ci4/system/BaseModel.php(698): CodeIgniter\Model->insert()
+#8 /var/www/html/ci4/app/Controllers/States.php(34): CodeIgniter\BaseModel->save()
+#9 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\States->stateInsert()
+#10 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-10-17 12:17:54 --> Unknown column 'created_at' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(788): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(715): CodeIgniter\BaseModel->insert()
+ 5 SYSTEMPATH/BaseModel.php(698): CodeIgniter\Model->insert()
+ 6 APPPATH/Controllers/States.php(34): CodeIgniter\BaseModel->save()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->stateInsert()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 12:18:13 --> Call to a member function getQuery() on bool
+in APPPATH/Controllers/States.php on line 35.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->stateInsert()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 12:18:17 --> Call to a member function getQuery() on bool
+in APPPATH/Controllers/States.php on line 35.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->stateInsert()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 12:18:53 --> Allowed fields must be specified for model: "App\Models\States_model"
+in SYSTEMPATH/Model.php on line 736.
+ 1 SYSTEMPATH/Model.php(736): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields()
+ 2 SYSTEMPATH/BaseModel.php(763): CodeIgniter\Model->doProtectFieldsForInsert()
+ 3 SYSTEMPATH/Model.php(715): CodeIgniter\BaseModel->insert()
+ 4 SYSTEMPATH/BaseModel.php(698): CodeIgniter\Model->insert()
+ 5 APPPATH/Controllers/States.php(34): CodeIgniter\BaseModel->save()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->stateInsert()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-17 12:19:17 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in /var/www/html/ci4/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/html/ci4/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/html/ci4/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ci4/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ci4/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ci4/system/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/ci4/system/BaseModel.php(788): CodeIgniter\Model->doInsert()
+#6 /var/www/html/ci4/system/Model.php(715): CodeIgniter\BaseModel->insert()
+#7 /var/www/html/ci4/system/BaseModel.php(698): CodeIgniter\Model->insert()
+#8 /var/www/html/ci4/app/Controllers/States.php(34): CodeIgniter\BaseModel->save()
+#9 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\States->stateInsert()
+#10 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-10-17 12:19:17 --> Unknown column 'created_at' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(788): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(715): CodeIgniter\BaseModel->insert()
+ 5 SYSTEMPATH/BaseModel.php(698): CodeIgniter\Model->insert()
+ 6 APPPATH/Controllers/States.php(34): CodeIgniter\BaseModel->save()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->stateInsert()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-17 12:19:47 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in /var/www/html/ci4/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/html/ci4/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/html/ci4/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ci4/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ci4/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ci4/system/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/ci4/system/BaseModel.php(788): CodeIgniter\Model->doInsert()
+#6 /var/www/html/ci4/system/Model.php(715): CodeIgniter\BaseModel->insert()
+#7 /var/www/html/ci4/system/BaseModel.php(698): CodeIgniter\Model->insert()
+#8 /var/www/html/ci4/app/Controllers/States.php(34): CodeIgniter\BaseModel->save()
+#9 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\States->stateInsert()
+#10 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-10-17 12:19:47 --> Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(788): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(715): CodeIgniter\BaseModel->insert()
+ 5 SYSTEMPATH/BaseModel.php(698): CodeIgniter\Model->insert()
+ 6 APPPATH/Controllers/States.php(34): CodeIgniter\BaseModel->save()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->stateInsert()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-17 12:20:08 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in /var/www/html/ci4/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/html/ci4/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/html/ci4/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ci4/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ci4/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ci4/system/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/ci4/system/BaseModel.php(788): CodeIgniter\Model->doInsert()
+#6 /var/www/html/ci4/system/Model.php(715): CodeIgniter\BaseModel->insert()
+#7 /var/www/html/ci4/system/BaseModel.php(698): CodeIgniter\Model->insert()
+#8 /var/www/html/ci4/app/Controllers/States.php(34): CodeIgniter\BaseModel->save()
+#9 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\States->stateInsert()
+#10 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-10-17 12:20:08 --> Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(788): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(715): CodeIgniter\BaseModel->insert()
+ 5 SYSTEMPATH/BaseModel.php(698): CodeIgniter\Model->insert()
+ 6 APPPATH/Controllers/States.php(34): CodeIgniter\BaseModel->save()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->stateInsert()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-17 12:20:20 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in /var/www/html/ci4/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/html/ci4/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/html/ci4/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ci4/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ci4/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ci4/system/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/ci4/system/BaseModel.php(788): CodeIgniter\Model->doInsert()
+#6 /var/www/html/ci4/system/Model.php(715): CodeIgniter\BaseModel->insert()
+#7 /var/www/html/ci4/system/BaseModel.php(698): CodeIgniter\Model->insert()
+#8 /var/www/html/ci4/app/Controllers/States.php(34): CodeIgniter\BaseModel->save()
+#9 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\States->stateInsert()
+#10 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-10-17 12:20:20 --> Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(788): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(715): CodeIgniter\BaseModel->insert()
+ 5 SYSTEMPATH/BaseModel.php(698): CodeIgniter\Model->insert()
+ 6 APPPATH/Controllers/States.php(34): CodeIgniter\BaseModel->save()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->stateInsert()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 12:26:47 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getMethod
+in APPPATH/Controllers/States.php on line 34.
+ 1 APPPATH/Controllers/States.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->stateInsert()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 12:32:23 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getMethod
+in APPPATH/Controllers/States.php on line 35.
+ 1 APPPATH/Controllers/States.php(35): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->stateInsert()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 12:39:30 --> Call to a member function getCompiledSelect() on int
+in APPPATH/Controllers/States.php on line 36.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->stateInsert()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 12:41:59 --> You cannot use "getCompiledSelect()" in "App\Models\States_model". This is a method of the Query Builder Class.
+in SYSTEMPATH/Model.php on line 889.
+ 1 SYSTEMPATH/Model.php(889): CodeIgniter\Exceptions\ModelException::forMethodNotAvailable()
+ 2 SYSTEMPATH/Model.php(869): CodeIgniter\Model->checkBuilderMethod()
+ 3 APPPATH/Controllers/States.php(36): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->stateInsert()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 12:45:15 --> You cannot use "getCompiledInsert()" in "App\Models\States_model". This is a method of the Query Builder Class.
+in SYSTEMPATH/Model.php on line 889.
+ 1 SYSTEMPATH/Model.php(889): CodeIgniter\Exceptions\ModelException::forMethodNotAvailable()
+ 2 SYSTEMPATH/Model.php(869): CodeIgniter\Model->checkBuilderMethod()
+ 3 APPPATH/Controllers/States.php(36): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->stateInsert()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 12:45:31 --> Call to a member function getCompiledInsert() on int
+in APPPATH/Controllers/States.php on line 36.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->stateInsert()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 12:46:25 --> You cannot use "getCompiledInsert()" in "App\Models\States_model". This is a method of the Query Builder Class.
+in SYSTEMPATH/Model.php on line 889.
+ 1 SYSTEMPATH/Model.php(889): CodeIgniter\Exceptions\ModelException::forMethodNotAvailable()
+ 2 SYSTEMPATH/Model.php(869): CodeIgniter\Model->checkBuilderMethod()
+ 3 APPPATH/Controllers/States.php(36): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->stateInsert()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 12:46:40 --> Call to a member function getCompiledInsert() on bool
+in APPPATH/Controllers/States.php on line 36.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->stateInsert()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 12:49:20 --> You cannot use "getCompiledInsert()" in "App\Models\States_model". This is a method of the Query Builder Class.
+in SYSTEMPATH/Model.php on line 889.
+ 1 SYSTEMPATH/Model.php(889): CodeIgniter\Exceptions\ModelException::forMethodNotAvailable()
+ 2 SYSTEMPATH/Model.php(869): CodeIgniter\Model->checkBuilderMethod()
+ 3 APPPATH/Controllers/States.php(36): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->stateInsert()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 12:50:18 --> You cannot use "getCompiledInsert()" in "App\Models\States_model". This is a method of the Query Builder Class.
+in SYSTEMPATH/Model.php on line 889.
+ 1 SYSTEMPATH/Model.php(889): CodeIgniter\Exceptions\ModelException::forMethodNotAvailable()
+ 2 SYSTEMPATH/Model.php(869): CodeIgniter\Model->checkBuilderMethod()
+ 3 APPPATH/Controllers/States.php(37): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->stateInsert()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 12:50:23 --> You cannot use "getCompiledInsert()" in "App\Models\States_model". This is a method of the Query Builder Class.
+in SYSTEMPATH/Model.php on line 889.
+ 1 SYSTEMPATH/Model.php(889): CodeIgniter\Exceptions\ModelException::forMethodNotAvailable()
+ 2 SYSTEMPATH/Model.php(869): CodeIgniter\Model->checkBuilderMethod()
+ 3 APPPATH/Controllers/States.php(37): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->stateInsert()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-17 12:50:54 --> Error connecting to the database: Error: Class 'SQLite3' not found in /var/www/html/ci4/system/Database/SQLite3/Connection.php:89
+Stack trace:
+#0 /var/www/html/ci4/system/Database/BaseConnection.php(391): CodeIgniter\Database\SQLite3\Connection->connect()
+#1 /var/www/html/ci4/system/Database/SQLite3/Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/ci4/system/Database/SQLite3/Connection.php(172): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 /var/www/html/ci4/system/Database/BaseConnection.php(1296): CodeIgniter\Database\SQLite3\Connection->_escapeString()
+#4 /var/www/html/ci4/system/Database/BaseConnection.php(1268): CodeIgniter\Database\BaseConnection->escapeString()
+#5 /var/www/html/ci4/system/Database/Query.php(321): CodeIgniter\Database\BaseConnection->escape()
+#6 /var/www/html/ci4/system/Database/Query.php(308): CodeIgniter\Database\Query->matchNamedBinds()
+#7 /var/www/html/ci4/system/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+#8 /var/www/html/ci4/system/Database/BaseBuilder.php(1598): CodeIgniter\Database\Query->getQuery()
+#9 /var/www/html/ci4/system/Database/BaseBuilder.php(2272): CodeIgniter\Database\BaseBuilder->compileFinalQuery()
+#10 /var/www/html/ci4/app/Controllers/States.php(69): CodeIgniter\Database\BaseBuilder->getCompiledInsert()
+#11 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\States->insertData()
+#12 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#13 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#14 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#15 {main}
+CRITICAL - 2023-10-17 12:50:54 --> Unable to connect to the database.
+Main connection [SQLite3]: Class 'SQLite3' not found
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/SQLite3/Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/SQLite3/Connection.php(172): CodeIgniter\Database\SQLite3\Connection->initialize()
+ 3 SYSTEMPATH/Database/BaseConnection.php(1296): CodeIgniter\Database\SQLite3\Connection->_escapeString()
+ 4 SYSTEMPATH/Database/BaseConnection.php(1268): CodeIgniter\Database\BaseConnection->escapeString()
+ 5 SYSTEMPATH/Database/Query.php(321): CodeIgniter\Database\BaseConnection->escape()
+ 6 SYSTEMPATH/Database/Query.php(308): CodeIgniter\Database\Query->matchNamedBinds()
+ 7 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 8 SYSTEMPATH/Database/BaseBuilder.php(1598): CodeIgniter\Database\Query->getQuery()
+ 9 SYSTEMPATH/Database/BaseBuilder.php(2272): CodeIgniter\Database\BaseBuilder->compileFinalQuery()
+10 APPPATH/Controllers/States.php(69): CodeIgniter\Database\BaseBuilder->getCompiledInsert()
+11 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->insertData()
+12 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+13 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+14 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-17 12:50:56 --> Error connecting to the database: Error: Class 'SQLite3' not found in /var/www/html/ci4/system/Database/SQLite3/Connection.php:89
+Stack trace:
+#0 /var/www/html/ci4/system/Database/BaseConnection.php(391): CodeIgniter\Database\SQLite3\Connection->connect()
+#1 /var/www/html/ci4/system/Database/SQLite3/Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/ci4/system/Database/SQLite3/Connection.php(172): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 /var/www/html/ci4/system/Database/BaseConnection.php(1296): CodeIgniter\Database\SQLite3\Connection->_escapeString()
+#4 /var/www/html/ci4/system/Database/BaseConnection.php(1268): CodeIgniter\Database\BaseConnection->escapeString()
+#5 /var/www/html/ci4/system/Database/Query.php(321): CodeIgniter\Database\BaseConnection->escape()
+#6 /var/www/html/ci4/system/Database/Query.php(308): CodeIgniter\Database\Query->matchNamedBinds()
+#7 /var/www/html/ci4/system/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+#8 /var/www/html/ci4/system/Database/BaseBuilder.php(1598): CodeIgniter\Database\Query->getQuery()
+#9 /var/www/html/ci4/system/Database/BaseBuilder.php(2272): CodeIgniter\Database\BaseBuilder->compileFinalQuery()
+#10 /var/www/html/ci4/app/Controllers/States.php(69): CodeIgniter\Database\BaseBuilder->getCompiledInsert()
+#11 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\States->insertData()
+#12 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#13 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#14 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#15 {main}
+CRITICAL - 2023-10-17 12:50:56 --> Unable to connect to the database.
+Main connection [SQLite3]: Class 'SQLite3' not found
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/SQLite3/Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/SQLite3/Connection.php(172): CodeIgniter\Database\SQLite3\Connection->initialize()
+ 3 SYSTEMPATH/Database/BaseConnection.php(1296): CodeIgniter\Database\SQLite3\Connection->_escapeString()
+ 4 SYSTEMPATH/Database/BaseConnection.php(1268): CodeIgniter\Database\BaseConnection->escapeString()
+ 5 SYSTEMPATH/Database/Query.php(321): CodeIgniter\Database\BaseConnection->escape()
+ 6 SYSTEMPATH/Database/Query.php(308): CodeIgniter\Database\Query->matchNamedBinds()
+ 7 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 8 SYSTEMPATH/Database/BaseBuilder.php(1598): CodeIgniter\Database\Query->getQuery()
+ 9 SYSTEMPATH/Database/BaseBuilder.php(2272): CodeIgniter\Database\BaseBuilder->compileFinalQuery()
+10 APPPATH/Controllers/States.php(69): CodeIgniter\Database\BaseBuilder->getCompiledInsert()
+11 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->insertData()
+12 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+13 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+14 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 12:52:03 --> You cannot use "getCompiledInsert()" in "App\Models\States_model". This is a method of the Query Builder Class.
+in SYSTEMPATH/Model.php on line 889.
+ 1 SYSTEMPATH/Model.php(889): CodeIgniter\Exceptions\ModelException::forMethodNotAvailable()
+ 2 SYSTEMPATH/Model.php(869): CodeIgniter\Model->checkBuilderMethod()
+ 3 APPPATH/Controllers/States.php(69): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->insertData()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 12:52:06 --> You cannot use "getCompiledInsert()" in "App\Models\States_model". This is a method of the Query Builder Class.
+in SYSTEMPATH/Model.php on line 889.
+ 1 SYSTEMPATH/Model.php(889): CodeIgniter\Exceptions\ModelException::forMethodNotAvailable()
+ 2 SYSTEMPATH/Model.php(869): CodeIgniter\Model->checkBuilderMethod()
+ 3 APPPATH/Controllers/States.php(37): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->stateInsert()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 12:52:10 --> You cannot use "getCompiledInsert()" in "App\Models\States_model". This is a method of the Query Builder Class.
+in SYSTEMPATH/Model.php on line 889.
+ 1 SYSTEMPATH/Model.php(889): CodeIgniter\Exceptions\ModelException::forMethodNotAvailable()
+ 2 SYSTEMPATH/Model.php(869): CodeIgniter\Model->checkBuilderMethod()
+ 3 APPPATH/Controllers/States.php(69): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->insertData()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 12:53:11 --> You cannot use "getCompiledInsert()" in "App\Models\States_model". This is a method of the Query Builder Class.
+in SYSTEMPATH/Model.php on line 889.
+ 1 SYSTEMPATH/Model.php(889): CodeIgniter\Exceptions\ModelException::forMethodNotAvailable()
+ 2 SYSTEMPATH/Model.php(869): CodeIgniter\Model->checkBuilderMethod()
+ 3 APPPATH/Controllers/States.php(69): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->insertData()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 12:53:13 --> You cannot use "getCompiledInsert()" in "App\Models\States_model". This is a method of the Query Builder Class.
+in SYSTEMPATH/Model.php on line 889.
+ 1 SYSTEMPATH/Model.php(889): CodeIgniter\Exceptions\ModelException::forMethodNotAvailable()
+ 2 SYSTEMPATH/Model.php(869): CodeIgniter\Model->checkBuilderMethod()
+ 3 APPPATH/Controllers/States.php(69): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->insertData()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 12:55:03 --> Invalid numeric literal
+in APPPATH/Controllers/States.php on line 60.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/CodeIgniter.php(877): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 12:55:24 --> Undefined variable: db
+in APPPATH/Controllers/States.php on line 64.
+ 1 APPPATH/Controllers/States.php(64): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->insertData()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 12:55:36 --> You cannot use "getCompiledInsert()" in "App\Models\States_model". This is a method of the Query Builder Class.
+in SYSTEMPATH/Model.php on line 889.
+ 1 SYSTEMPATH/Model.php(889): CodeIgniter\Exceptions\ModelException::forMethodNotAvailable()
+ 2 SYSTEMPATH/Model.php(869): CodeIgniter\Model->checkBuilderMethod()
+ 3 APPPATH/Controllers/States.php(68): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->insertData()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 12:56:57 --> You cannot use "getCompiledInsert()" in "App\Models\States_model". This is a method of the Query Builder Class.
+in SYSTEMPATH/Model.php on line 889.
+ 1 SYSTEMPATH/Model.php(889): CodeIgniter\Exceptions\ModelException::forMethodNotAvailable()
+ 2 SYSTEMPATH/Model.php(869): CodeIgniter\Model->checkBuilderMethod()
+ 3 APPPATH/Controllers/States.php(68): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->insertData()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 12:57:00 --> You cannot use "getCompiledInsert()" in "App\Models\States_model". This is a method of the Query Builder Class.
+in SYSTEMPATH/Model.php on line 889.
+ 1 SYSTEMPATH/Model.php(889): CodeIgniter\Exceptions\ModelException::forMethodNotAvailable()
+ 2 SYSTEMPATH/Model.php(869): CodeIgniter\Model->checkBuilderMethod()
+ 3 APPPATH/Controllers/States.php(68): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->insertData()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 12:57:35 --> You cannot use "getCompiledInsert()" in "App\Models\States_model". This is a method of the Query Builder Class.
+in SYSTEMPATH/Model.php on line 889.
+ 1 SYSTEMPATH/Model.php(889): CodeIgniter\Exceptions\ModelException::forMethodNotAvailable()
+ 2 SYSTEMPATH/Model.php(869): CodeIgniter\Model->checkBuilderMethod()
+ 3 APPPATH/Controllers/States.php(68): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->insertData()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 13:01:12 --> Undefined property: App\Controllers\States::$db
+in APPPATH/Controllers/States.php on line 35.
+ 1 APPPATH/Controllers/States.php(35): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->stateInsert()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 13:08:40 --> Too few arguments to function App\Models\States_model::courseInsert(), 0 passed in /var/www/html/ci4/app/Controllers/States.php on line 56 and exactly 1 expected
+in APPPATH/Models/States_model.php on line 41.
+ 1 APPPATH/Controllers/States.php(56): App\Models\States_model->courseInsert()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->insertData()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 13:08:53 --> Undefined variable: courseInsert
+in APPPATH/Controllers/States.php on line 58.
+ 1 APPPATH/Controllers/States.php(58): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->insertData()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-17 13:09:07 --> mysqli_sql_exception: Duplicate entry '0' for key 'course.PRIMARY' in /var/www/html/ci4/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/html/ci4/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/html/ci4/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/ci4/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/ci4/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/ci4/app/Models/States_model.php(43): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/ci4/app/Controllers/States.php(56): App\Models\States_model->courseInsert()
+#6 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\States->insertData()
+#7 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-17 13:09:07 --> Duplicate entry '0' for key 'course.PRIMARY'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/States_model.php(43): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/States.php(56): App\Models\States_model->courseInsert()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->insertData()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 13:25:05 --> Undefined variable: data
+in APPPATH/Models/States_model.php on line 47.
+ 1 APPPATH/Models/States_model.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/States.php(39): App\Models\States_model->stateInsert()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->stateInsert()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 13:26:23 --> Allowed fields must be specified for model: "App\Models\States_model"
+in SYSTEMPATH/Model.php on line 736.
+ 1 SYSTEMPATH/Model.php(736): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields()
+ 2 SYSTEMPATH/BaseModel.php(763): CodeIgniter\Model->doProtectFieldsForInsert()
+ 3 SYSTEMPATH/Model.php(715): CodeIgniter\BaseModel->insert()
+ 4 APPPATH/Controllers/States.php(39): CodeIgniter\Model->insert()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->stateInsert()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

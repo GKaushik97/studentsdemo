@@ -1,0 +1,1013 @@
+CRITICAL - 2023-10-18 06:03:46 --> Use of undefined constant WEBROOT - assumed 'WEBROOT' (this will throw an Error in a future version of PHP)
+in APPPATH/Controllers/States.php on line 17.
+ 1 APPPATH/Controllers/States.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->index()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 06:04:01 --> Unable to locate view cell class: "Menu".
+in SYSTEMPATH/View/Cell.php on line 185.
+ 1 SYSTEMPATH/View/Cell.php(185): CodeIgniter\View\Exceptions\ViewException::forInvalidCellClass()
+ 2 SYSTEMPATH/View/Cell.php(76): CodeIgniter\View\Cell->determineClass()
+ 3 SYSTEMPATH/Common.php(1204): CodeIgniter\View\Cell->render()
+ 4 APPPATH/Views/template/template.php(38): view_cell()
+ 5 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/template/template.php')
+ 6 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 8 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/States.php(21): view()
+10 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->index()
+11 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 06:04:37 --> Unable to locate view cell class: "Menu".
+in SYSTEMPATH/View/Cell.php on line 185.
+ 1 SYSTEMPATH/View/Cell.php(185): CodeIgniter\View\Exceptions\ViewException::forInvalidCellClass()
+ 2 SYSTEMPATH/View/Cell.php(76): CodeIgniter\View\Cell->determineClass()
+ 3 SYSTEMPATH/Common.php(1204): CodeIgniter\View\Cell->render()
+ 4 APPPATH/Views/template/template.php(38): view_cell()
+ 5 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/template/template.php')
+ 6 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 8 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/States.php(21): view()
+10 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->index()
+11 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 06:05:28 --> Unable to locate view cell class: "Menu".
+in SYSTEMPATH/View/Cell.php on line 185.
+ 1 SYSTEMPATH/View/Cell.php(185): CodeIgniter\View\Exceptions\ViewException::forInvalidCellClass()
+ 2 SYSTEMPATH/View/Cell.php(76): CodeIgniter\View\Cell->determineClass()
+ 3 SYSTEMPATH/Common.php(1204): CodeIgniter\View\Cell->render()
+ 4 APPPATH/Views/template/template.php(38): view_cell()
+ 5 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/template/template.php')
+ 6 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 8 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/States.php(21): view()
+10 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->index()
+11 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 06:05:41 --> Unable to locate view cell class: "Menu".
+in SYSTEMPATH/View/Cell.php on line 185.
+ 1 SYSTEMPATH/View/Cell.php(185): CodeIgniter\View\Exceptions\ViewException::forInvalidCellClass()
+ 2 SYSTEMPATH/View/Cell.php(76): CodeIgniter\View\Cell->determineClass()
+ 3 SYSTEMPATH/Common.php(1204): CodeIgniter\View\Cell->render()
+ 4 APPPATH/Views/template/template.php(38): view_cell()
+ 5 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/template/template.php')
+ 6 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 8 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/States.php(21): view()
+10 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->index()
+11 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 06:06:37 --> Unable to locate view cell class: "Menu".
+in SYSTEMPATH/View/Cell.php on line 185.
+ 1 SYSTEMPATH/View/Cell.php(185): CodeIgniter\View\Exceptions\ViewException::forInvalidCellClass()
+ 2 SYSTEMPATH/View/Cell.php(76): CodeIgniter\View\Cell->determineClass()
+ 3 SYSTEMPATH/Common.php(1204): CodeIgniter\View\Cell->render()
+ 4 APPPATH/Views/template/template.php(38): view_cell()
+ 5 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/template/template.php')
+ 6 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 8 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/States.php(21): view()
+10 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->index()
+11 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 06:07:25 --> Use of undefined constant WEBROOT - assumed 'WEBROOT' (this will throw an Error in a future version of PHP)
+in APPPATH/Views/template/template.php on line 47.
+ 1 APPPATH/Views/template/template.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/template/template.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 5 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/States.php(21): view()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->index()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 06:07:59 --> Undefined variable: breadcrumb_item
+in APPPATH/Views/template/template.php on line 51.
+ 1 APPPATH/Views/template/template.php(51): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/template/template.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 5 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/States.php(21): view()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->index()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 06:08:01 --> Undefined variable: breadcrumb_item
+in APPPATH/Views/template/template.php on line 51.
+ 1 APPPATH/Views/template/template.php(51): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/template/template.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 5 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/States.php(21): view()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->index()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 06:08:06 --> Undefined variable: breadcrumb_item
+in APPPATH/Views/template/template.php on line 51.
+ 1 APPPATH/Views/template/template.php(51): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/template/template.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 5 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/States.php(21): view()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->index()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 06:10:24 --> Undefined variable: breadcrumb_item
+in APPPATH/Views/template/template.php on line 51.
+ 1 APPPATH/Views/template/template.php(51): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/template/template.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 5 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/States.php(21): view()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->index()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 06:10:26 --> Undefined variable: breadcrumb_item
+in APPPATH/Views/template/template.php on line 51.
+ 1 APPPATH/Views/template/template.php(51): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/template/template.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 5 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/States.php(21): view()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->index()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 06:14:14 --> syntax error, unexpected 'endif' (T_ENDIF)
+in APPPATH/Views/template/template.php on line 59.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/States.php(21): view()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->index()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 06:14:16 --> syntax error, unexpected 'endif' (T_ENDIF)
+in APPPATH/Views/template/template.php on line 59.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/States.php(21): view()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->index()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 06:14:30 --> syntax error, unexpected 'endif' (T_ENDIF)
+in APPPATH/Views/template/template.php on line 59.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/States.php(21): view()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->index()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 06:15:05 --> syntax error, unexpected end of file
+in APPPATH/Views/template/template.php on line 70.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/States.php(21): view()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->index()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 06:15:07 --> syntax error, unexpected end of file
+in APPPATH/Views/template/template.php on line 70.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/States.php(21): view()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->index()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 06:15:56 --> syntax error, unexpected end of file
+in APPPATH/Views/template/template.php on line 70.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/States.php(21): view()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->index()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 06:15:58 --> syntax error, unexpected end of file
+in APPPATH/Views/template/template.php on line 70.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/States.php(21): view()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->index()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 06:16:54 --> syntax error, unexpected end of file
+in APPPATH/Views/template/template.php on line 70.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/States.php(21): view()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->index()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 06:16:55 --> syntax error, unexpected end of file
+in APPPATH/Views/template/template.php on line 70.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/States.php(21): view()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->index()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 06:17:28 --> syntax error, unexpected 'endif' (T_ENDIF)
+in APPPATH/Views/template/template.php on line 59.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/States.php(21): view()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->index()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 06:17:30 --> syntax error, unexpected 'endif' (T_ENDIF)
+in APPPATH/Views/template/template.php on line 59.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/States.php(21): view()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->index()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 06:17:48 --> syntax error, unexpected 'endif' (T_ENDIF)
+in APPPATH/Views/template/template.php on line 59.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/States.php(21): view()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->index()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 06:18:00 --> syntax error, unexpected end of file
+in APPPATH/Views/template/template.php on line 70.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/States.php(21): view()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->index()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 06:19:19 --> syntax error, unexpected end of file
+in APPPATH/Views/template/template.php on line 70.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/States.php(21): view()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->index()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 06:19:20 --> syntax error, unexpected end of file
+in APPPATH/Views/template/template.php on line 70.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/States.php(21): view()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->index()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 06:19:54 --> Unable to locate view cell class: "Menu".
+in SYSTEMPATH/View/Cell.php on line 185.
+ 1 SYSTEMPATH/View/Cell.php(185): CodeIgniter\View\Exceptions\ViewException::forInvalidCellClass()
+ 2 SYSTEMPATH/View/Cell.php(76): CodeIgniter\View\Cell->determineClass()
+ 3 SYSTEMPATH/Common.php(1204): CodeIgniter\View\Cell->render()
+ 4 APPPATH/Views/template/template.php(38): view_cell()
+ 5 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/template/template.php')
+ 6 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 8 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/States.php(21): view()
+10 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->index()
+11 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 06:28:30 --> Unable to locate view cell class: "Menu".
+in SYSTEMPATH/View/Cell.php on line 185.
+ 1 SYSTEMPATH/View/Cell.php(185): CodeIgniter\View\Exceptions\ViewException::forInvalidCellClass()
+ 2 SYSTEMPATH/View/Cell.php(76): CodeIgniter\View\Cell->determineClass()
+ 3 SYSTEMPATH/Common.php(1204): CodeIgniter\View\Cell->render()
+ 4 APPPATH/Views/template/template.php(38): view_cell()
+ 5 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/template/template.php')
+ 6 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 8 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/States.php(21): view()
+10 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->index()
+11 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 06:32:53 --> Unable to locate view cell class: "Menu".
+in SYSTEMPATH/View/Cell.php on line 185.
+ 1 SYSTEMPATH/View/Cell.php(185): CodeIgniter\View\Exceptions\ViewException::forInvalidCellClass()
+ 2 SYSTEMPATH/View/Cell.php(76): CodeIgniter\View\Cell->determineClass()
+ 3 SYSTEMPATH/Common.php(1204): CodeIgniter\View\Cell->render()
+ 4 APPPATH/Views/template/template.php(38): view_cell()
+ 5 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/template/template.php')
+ 6 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 8 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/States.php(21): view()
+10 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->index()
+11 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 06:35:11 --> Undefined variable: breadcrumb_item
+in APPPATH/Views/template/template.php on line 51.
+ 1 APPPATH/Views/template/template.php(51): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/template/template.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 5 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/States.php(21): view()
+ 7 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->index()
+ 8 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 06:35:42 --> syntax error, unexpected end of file
+in APPPATH/Views/template/template.php on line 70.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/States.php(21): view()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->index()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 06:36:17 --> syntax error, unexpected 'endif' (T_ENDIF)
+in APPPATH/Views/template/template.php on line 59.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/States.php(21): view()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->index()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 06:36:33 --> syntax error, unexpected 'endif' (T_ENDIF)
+in APPPATH/Views/template/template.php on line 59.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/States.php(21): view()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->index()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 06:37:05 --> syntax error, unexpected end of file
+in APPPATH/Views/template/template.php on line 70.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/States.php(21): view()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->index()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 06:41:18 --> syntax error, unexpected end of file
+in APPPATH/Views/template/template.php on line 70.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/States.php(21): view()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->index()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 06:50:51 --> Allowed fields must be specified for model: "App\Models\States_model"
+in SYSTEMPATH/Model.php on line 736.
+ 1 SYSTEMPATH/Model.php(736): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields()
+ 2 SYSTEMPATH/BaseModel.php(763): CodeIgniter\Model->doProtectFieldsForInsert()
+ 3 SYSTEMPATH/Model.php(715): CodeIgniter\BaseModel->insert()
+ 4 APPPATH/Controllers/States.php(39): CodeIgniter\Model->insert()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->stateInsert()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 07:00:54 --> syntax error, unexpected 'echo' (T_ECHO)
+in APPPATH/Views/state/state.php on line 26.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/States.php(15): view()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->index()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 07:05:45 --> Invalid file: "state/state_edit.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/States.php(32): view()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->stateEdit()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 07:06:09 --> Invalid file: "state/state_update.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/States.php(32): view()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->stateEdit()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 07:06:26 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1724.
+ 1 SYSTEMPATH/BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(776): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Controllers/States.php(69): CodeIgniter\Model->update()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->stateUpdate()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 07:07:07 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1724.
+ 1 SYSTEMPATH/BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(776): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Controllers/States.php(65): CodeIgniter\Model->update()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->stateUpdate()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 07:07:23 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1724.
+ 1 SYSTEMPATH/BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(776): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Controllers/States.php(65): CodeIgniter\Model->update()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->stateUpdate()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 07:12:37 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1724.
+ 1 SYSTEMPATH/BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(776): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Controllers/States.php(65): CodeIgniter\Model->update()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->stateUpdate()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 07:13:20 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1724.
+ 1 SYSTEMPATH/BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(776): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Controllers/States.php(65): CodeIgniter\Model->update()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->stateUpdate()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 07:15:42 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1724.
+ 1 SYSTEMPATH/BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(776): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Controllers/States.php(65): CodeIgniter\Model->update()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->stateUpdate()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 07:30:16 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, string returned
+in SYSTEMPATH/BaseModel.php on line 1750.
+ 1 SYSTEMPATH/BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray()
+ 2 SYSTEMPATH/Model.php(776): CodeIgniter\BaseModel->update()
+ 3 APPPATH/Controllers/States.php(67): CodeIgniter\Model->update()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->stateUpdate()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-18 07:40:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 07:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 07:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-18 07:41:00 --> Array to string conversion
+in APPPATH/Views/state/state.php on line 18.
+ 1 APPPATH/Views/state/state.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/state/state.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/States.php(15): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->index()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-18 07:41:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 07:41:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 07:41:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 07:41:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 08:01:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-18 08:01:51 --> Undefined variable: validation
+in APPPATH/Views/state/state_add.php on line 9.
+ 1 APPPATH/Views/state/state_add.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/state/state_add.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/States.php(28): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->stateAdd()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 08:03:54 --> Trying to get property 'errno' of non-object
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 578.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(578): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Model.php(499): CodeIgniter\Database\MySQLi\Connection->error()
+ 3 SYSTEMPATH/BaseModel.php(1177): CodeIgniter\Model->doErrors()
+ 4 APPPATH/Controllers/States.php(14): CodeIgniter\BaseModel->errors()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->index()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 08:03:57 --> Trying to get property 'errno' of non-object
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 578.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(578): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Model.php(499): CodeIgniter\Database\MySQLi\Connection->error()
+ 3 SYSTEMPATH/BaseModel.php(1177): CodeIgniter\Model->doErrors()
+ 4 APPPATH/Controllers/States.php(14): CodeIgniter\BaseModel->errors()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->index()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 08:04:33 --> Trying to get property 'errno' of non-object
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 578.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(578): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Model.php(867): CodeIgniter\Database\MySQLi\Connection->error()
+ 3 APPPATH/Controllers/States.php(14): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->index()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 08:04:34 --> Trying to get property 'errno' of non-object
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 578.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(578): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Model.php(867): CodeIgniter\Database\MySQLi\Connection->error()
+ 3 APPPATH/Controllers/States.php(14): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->index()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-18 08:06:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 08:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 08:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 08:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 08:07:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-18 08:07:57 --> Undefined variable: validation
+in APPPATH/Views/state/state_add.php on line 9.
+ 1 APPPATH/Views/state/state_add.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/state/state_add.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/States.php(28): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->stateAdd()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-18 08:08:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-18 08:08:13 --> Call to undefined function set_value()
+in APPPATH/Views/state/state_add.php on line 8.
+ 1 SYSTEMPATH/View/View.php(226): include()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/States.php(28): view()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->stateAdd()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-18 08:08:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 09:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 09:20:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 09:20:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 09:20:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-18 09:28:19 --> Undefined variable: validation
+in APPPATH/Views/state/state_add.php on line 7.
+ 1 APPPATH/Views/state/state_add.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/state/state_add.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/States.php(29): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->stateAdd()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-18 09:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-18 09:29:23 --> Undefined variable: validation
+in APPPATH/Views/state/state_add.php on line 7.
+ 1 APPPATH/Views/state/state_add.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/state/state_add.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/States.php(85): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->countryAdd()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 09:29:26 --> Undefined variable: validation
+in APPPATH/Views/state/state_add.php on line 7.
+ 1 APPPATH/Views/state/state_add.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/state/state_add.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/States.php(85): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\States->countryAdd()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-18 10:10:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 10:10:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-18 10:24:13 --> Class 'BaseController' not found
+in APPPATH/Controllers/Country.php on line 5.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(306): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 [internal function]: spl_autoload_call()
+ 6 SYSTEMPATH/CodeIgniter.php(877): class_exists()
+ 7 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 10:24:18 --> Class 'BaseController' not found
+in APPPATH/Controllers/Country.php on line 5.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(306): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 [internal function]: spl_autoload_call()
+ 6 SYSTEMPATH/CodeIgniter.php(877): class_exists()
+ 7 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 10:24:59 --> Class 'App\Models\Country_model' not found
+in APPPATH/Controllers/Country.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Country->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-18 10:26:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-18 10:36:34 --> Undefined variable: validation
+in APPPATH/Views/state/country_add.php on line 7.
+ 1 APPPATH/Views/state/country_add.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/state/country_add.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Country.php(24): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Country->add()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-18 10:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 10:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-18 10:38:57 --> Undefined variable: validation
+in APPPATH/Views/state/country_add.php on line 7.
+ 1 APPPATH/Views/state/country_add.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/state/country_add.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Country.php(24): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Country->add()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 10:42:08 --> Undefined variable: validation
+in APPPATH/Views/state/add.php on line 9.
+ 1 APPPATH/Views/state/add.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/state/add.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Country.php(24): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Country->add()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 10:42:09 --> Undefined variable: validation
+in APPPATH/Views/state/add.php on line 9.
+ 1 APPPATH/Views/state/add.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/state/add.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Country.php(24): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Country->add()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 10:47:20 --> Undefined variable: errors
+in APPPATH/Views/state/add.php on line 9.
+ 1 APPPATH/Views/state/add.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/state/add.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Country.php(24): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Country->add()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 10:47:53 --> Undefined property: App\Controllers\Country::$validation
+in APPPATH/Controllers/Country.php on line 35.
+ 1 APPPATH/Controllers/Country.php(35): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Country->countryInsert()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 10:51:34 --> Undefined variable: validation
+in APPPATH/Views/state/add.php on line 12.
+ 1 APPPATH/Views/state/add.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/state/add.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Country.php(24): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Country->add()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 10:51:36 --> Undefined variable: validation
+in APPPATH/Views/state/add.php on line 12.
+ 1 APPPATH/Views/state/add.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/state/add.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Country.php(24): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Country->add()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 10:51:46 --> Undefined variable: errors
+in APPPATH/Views/state/add.php on line 12.
+ 1 APPPATH/Views/state/add.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/state/add.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Country.php(24): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Country->add()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 10:52:26 --> syntax error, unexpected end of file
+in APPPATH/Views/state/add.php on line 17.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Country.php(24): view()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Country->add()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 10:52:43 --> Undefined variable: errors
+in APPPATH/Views/state/add.php on line 12.
+ 1 APPPATH/Views/state/add.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/state/add.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Country.php(24): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Country->add()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 10:53:20 --> Undefined index: name
+in APPPATH/Views/state/add.php on line 12.
+ 1 APPPATH/Views/state/add.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/state/add.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Country.php(36): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Country->countryInsert()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 10:54:16 --> Undefined index: name
+in APPPATH/Views/state/add.php on line 12.
+ 1 APPPATH/Views/state/add.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/ci4/app/Views/state/add.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Country.php(36): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Country->countryInsert()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-18 10:55:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 11:02:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-18 11:02:27 --> Call to undefined function App\Controllers\resdirect()
+in APPPATH/Controllers/Country.php on line 46.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Country->countryInsert()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-18 11:02:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 11:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 11:03:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 11:03:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 11:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 11:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 11:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 11:29:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 12:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 12:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-18 12:13:59 --> Could not move file "phpfNo7YV" to "images/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 158.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed()
+ 2 APPPATH/Controllers/Country.php(42): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Country->countryInsert()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 12:17:42 --> Could not move file "phpLb0pZI" to "images/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 158.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed()
+ 2 APPPATH/Controllers/Country.php(42): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Country->countryInsert()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 12:19:43 --> Could not move file "phpnD7GCw" to "images/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 158.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed()
+ 2 APPPATH/Controllers/Country.php(43): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Country->countryInsert()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 12:29:30 --> Undefined constant 'App\Controllers\CodeIgniter\HTTP\Files\UploadedFile'
+in APPPATH/Controllers/Country.php on line 8.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(306): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 [internal function]: spl_autoload_call()
+ 6 SYSTEMPATH/CodeIgniter.php(877): class_exists()
+ 7 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 12:29:32 --> Undefined constant 'App\Controllers\CodeIgniter\HTTP\Files\UploadedFile'
+in APPPATH/Controllers/Country.php on line 8.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(306): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 [internal function]: spl_autoload_call()
+ 6 SYSTEMPATH/CodeIgniter.php(877): class_exists()
+ 7 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 12:29:44 --> Undefined constant 'App\Controllers\CodeIgniter\HTTP\Files'
+in APPPATH/Controllers/Country.php on line 8.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(306): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 [internal function]: spl_autoload_call()
+ 6 SYSTEMPATH/CodeIgniter.php(877): class_exists()
+ 7 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 12:29:46 --> Undefined constant 'App\Controllers\CodeIgniter\HTTP\Files'
+in APPPATH/Controllers/Country.php on line 8.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(306): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 [internal function]: spl_autoload_call()
+ 6 SYSTEMPATH/CodeIgniter.php(877): class_exists()
+ 7 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-18 12:29:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-18 12:30:15 --> Could not move file "phpNxKC5N" to "images/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 158.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed()
+ 2 APPPATH/Controllers/Country.php(43): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Country->countryInsert()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 12:31:45 --> Could not move file "phpBa7zuD" to "images/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 158.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed()
+ 2 APPPATH/Controllers/Country.php(43): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Country->countryInsert()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 12:32:00 --> Could not move file "phpEUc1bJ" to "images/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 158.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed()
+ 2 APPPATH/Controllers/Country.php(43): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Country->countryInsert()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 12:33:59 --> Could not move file "phpaEpEuE" to "/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 158.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed()
+ 2 APPPATH/Controllers/Country.php(43): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Country->countryInsert()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 12:38:26 --> syntax error, unexpected ''added_at'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+in APPPATH/Models/Country_model.php on line 14.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 APPPATH/Controllers/Country.php(13): spl_autoload_call()
+ 5 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Country->__construct()
+ 6 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 12:38:27 --> syntax error, unexpected ''added_at'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+in APPPATH/Models/Country_model.php on line 14.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 APPPATH/Controllers/Country.php(13): spl_autoload_call()
+ 5 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Country->__construct()
+ 6 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 12:38:29 --> syntax error, unexpected ''added_at'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+in APPPATH/Models/Country_model.php on line 14.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 APPPATH/Controllers/Country.php(13): spl_autoload_call()
+ 5 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Country->__construct()
+ 6 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 12:38:39 --> syntax error, unexpected ''added_at'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+in APPPATH/Models/Country_model.php on line 14.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 APPPATH/Controllers/Country.php(13): spl_autoload_call()
+ 5 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Country->__construct()
+ 6 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-18 12:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-18 12:39:10 --> Could not move file "phpleztIE" to "/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 158.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed()
+ 2 APPPATH/Controllers/Country.php(43): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Country->countryInsert()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 12:48:25 --> Undefined variable: imageName
+in APPPATH/Controllers/Country.php on line 47.
+ 1 APPPATH/Controllers/Country.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Country->countryInsert()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-18 12:49:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 12:49:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-18 12:50:39 --> mkdir(): Permission denied
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 185.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/HTTP/Files/UploadedFile.php(185): mkdir()
+ 3 SYSTEMPATH/HTTP/Files/UploadedFile.php(139): CodeIgniter\HTTP\Files\UploadedFile->setPath()
+ 4 APPPATH/Controllers/Country.php(43): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 5 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Country->countryInsert()
+ 6 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-18 12:51:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 12:51:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 13:23:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 13:23:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 13:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

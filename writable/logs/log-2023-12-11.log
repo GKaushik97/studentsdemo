@@ -1,0 +1,456 @@
+INFO - 2023-12-11 07:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-11 07:28:55 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-12-11 07:28:55 --> 
+ERROR - 2023-12-11 07:29:50 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-12-11 07:29:50 --> 
+ERROR - 2023-12-11 07:31:05 --> Email: Unable to send email using Sendmail. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-11 07:31:05 --> Exit status code: 127
+Unable to open a socket to Sendmail. Please check settings.
+ERROR - 2023-12-11 07:31:07 --> Email: Unable to send email using Sendmail. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-11 07:31:07 --> Exit status code: 127
+Unable to open a socket to Sendmail. Please check settings.
+ERROR - 2023-12-11 07:33:15 --> Email: Unable to send email using Sendmail. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-11 07:33:15 --> Exit status code: 127
+Unable to open a socket to Sendmail. Please check settings.
+ERROR - 2023-12-11 07:38:22 --> Email: Unable to send email using Sendmail. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-11 07:38:22 --> Exit status code: 127
+Unable to open a socket to Sendmail. Please check settings.
+ERROR - 2023-12-11 07:38:24 --> Email: Unable to send email using Sendmail. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-11 07:38:24 --> Exit status code: 127
+Unable to open a socket to Sendmail. Please check settings.
+CRITICAL - 2023-12-11 07:42:27 --> syntax error, unexpected '$config' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH/Config/Email.php on line 121.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/Config/Factories.php(277): class_exists()
+ 6 SYSTEMPATH/Config/Factories.php(196): CodeIgniter\Config\Factories::locateClass()
+ 7 SYSTEMPATH/Config/Factories.php(155): CodeIgniter\Config\Factories::getDefinedInstance()
+ 8 SYSTEMPATH/Common.php(217): CodeIgniter\Config\Factories::__callStatic()
+ 9 SYSTEMPATH/Config/Services.php(229): config()
+10 SYSTEMPATH/Config/BaseService.php(258): CodeIgniter\Config\Services::email()
+11 SYSTEMPATH/Config/BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic()
+12 SYSTEMPATH/Config/Services.php(225): CodeIgniter\Config\BaseService::getSharedInstance()
+13 SYSTEMPATH/Config/BaseService.php(258): CodeIgniter\Config\Services::email()
+14 APPPATH/Controllers/Student.php(115): CodeIgniter\Config\BaseService::__callStatic()
+15 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Student->sendEmail()
+16 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+17 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+18 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-11 07:45:26 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-12-11 07:45:26 --> 
+ERROR - 2023-12-11 08:22:23 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-12-11 08:22:23 --> 
+ERROR - 2023-12-11 09:11:43 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL/TLS already set-up for this stream in /var/www/html/ci4/system/Email/Email.php:1909
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ci4/system/Email/Email.php(1909): stream_socket_enable_crypto()
+#2 /var/www/html/ci4/system/Email/Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/html/ci4/system/Email/Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/html/ci4/system/Email/Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/html/ci4/app/Controllers/Student.php(128): CodeIgniter\Email\Email->send()
+#6 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\Student->sendEmail()
+#7 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-12-11 09:11:43 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-11 09:11:43 --> 220 smtp.gmail.com ESMTP dw20-20020a17090b095400b002864c6c47afsm5945480pjb.0 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2406:b400:d5:41ce:67e6:72e8:b4d2:fc69]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 530-5.7.0 Authentication Required. For more information, go to
+530 5.7.0  https://support.google.com/mail/?p=WantAuthError dw20-20020a17090b095400b002864c6c47afsm5945480pjb.0 - gsmtp
+
+The following SMTP error was encountered: 530-5.7.0 Authentication Required. For more information, go to
+530 5.7.0  https://support.google.com/mail/?p=WantAuthError dw20-20020a17090b095400b002864c6c47afsm5945480pjb.0 - gsmtp
+
+ERROR - 2023-12-11 09:16:04 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL/TLS already set-up for this stream in /var/www/html/ci4/system/Email/Email.php:1909
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ci4/system/Email/Email.php(1909): stream_socket_enable_crypto()
+#2 /var/www/html/ci4/system/Email/Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/html/ci4/system/Email/Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/html/ci4/system/Email/Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/html/ci4/app/Controllers/Student.php(128): CodeIgniter\Email\Email->send()
+#6 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\Student->sendEmail()
+#7 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-12-11 09:16:04 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-11 09:16:04 --> 220 smtp.gmail.com ESMTP g24-20020a170902869800b001cfdf290e82sm6068728plo.35 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2406:b400:d5:41ce:67e6:72e8:b4d2:fc69]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 530-5.7.0 Authentication Required. For more information, go to
+530 5.7.0  https://support.google.com/mail/?p=WantAuthError g24-20020a170902869800b001cfdf290e82sm6068728plo.35 - gsmtp
+
+The following SMTP error was encountered: 530-5.7.0 Authentication Required. For more information, go to
+530 5.7.0  https://support.google.com/mail/?p=WantAuthError g24-20020a170902869800b001cfdf290e82sm6068728plo.35 - gsmtp
+
+ERROR - 2023-12-11 09:16:14 --> Email: Unable to send email using Sendmail. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-11 09:16:14 --> Exit status code: 127
+Unable to open a socket to Sendmail. Please check settings.
+ERROR - 2023-12-11 09:18:09 --> Email: Unable to send email using Sendmail. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-11 09:18:09 --> Exit status code: 127
+Unable to open a socket to Sendmail. Please check settings.
+ERROR - 2023-12-11 09:18:51 --> Email: Unable to send email using Sendmail. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-11 09:18:51 --> Exit status code: 127
+Unable to open a socket to Sendmail. Please check settings.
+ERROR - 2023-12-11 09:18:54 --> Email: Unable to send email using Sendmail. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-11 09:18:54 --> Exit status code: 127
+Unable to open a socket to Sendmail. Please check settings.
+ERROR - 2023-12-11 09:19:28 --> Email: Unable to send email using Sendmail. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-11 09:19:28 --> Exit status code: 127
+Unable to open a socket to Sendmail. Please check settings.
+ERROR - 2023-12-11 09:19:31 --> Email: Unable to send email using Sendmail. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-11 09:19:31 --> Exit status code: 127
+Unable to open a socket to Sendmail. Please check settings.
+ERROR - 2023-12-11 09:19:45 --> Email: Unable to send email using Sendmail. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-11 09:19:45 --> Exit status code: 127
+Unable to open a socket to Sendmail. Please check settings.
+ERROR - 2023-12-11 09:20:02 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to tls://192.168.0.119:465 (Connection refused) in /var/www/html/ci4/system/Email/Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ci4/system/Email/Email.php(1888): fsockopen()
+#2 /var/www/html/ci4/system/Email/Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/html/ci4/system/Email/Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/html/ci4/system/Email/Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/html/ci4/app/Controllers/Student.php(128): CodeIgniter\Email\Email->send()
+#6 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\Student->sendEmail()
+#7 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-12-11 09:20:02 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-11 09:20:02 --> 
+ERROR - 2023-12-11 09:22:01 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to 192.168.0.119:587 (Connection refused) in /var/www/html/ci4/system/Email/Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ci4/system/Email/Email.php(1888): fsockopen()
+#2 /var/www/html/ci4/system/Email/Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/html/ci4/system/Email/Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/html/ci4/system/Email/Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/html/ci4/app/Controllers/Student.php(128): CodeIgniter\Email\Email->send()
+#6 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\Student->sendEmail()
+#7 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-12-11 09:22:01 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-11 09:22:01 --> 
+ERROR - 2023-12-11 09:22:05 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to 192.168.0.119:587 (Connection refused) in /var/www/html/ci4/system/Email/Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ci4/system/Email/Email.php(1888): fsockopen()
+#2 /var/www/html/ci4/system/Email/Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/html/ci4/system/Email/Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/html/ci4/system/Email/Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/html/ci4/app/Controllers/Student.php(128): CodeIgniter\Email\Email->send()
+#6 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\Student->sendEmail()
+#7 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-12-11 09:22:05 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-11 09:22:05 --> 
+ERROR - 2023-12-11 09:22:07 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to 192.168.0.119:587 (Connection refused) in /var/www/html/ci4/system/Email/Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ci4/system/Email/Email.php(1888): fsockopen()
+#2 /var/www/html/ci4/system/Email/Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/html/ci4/system/Email/Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/html/ci4/system/Email/Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/html/ci4/app/Controllers/Student.php(128): CodeIgniter\Email\Email->send()
+#6 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\Student->sendEmail()
+#7 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-12-11 09:22:07 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-11 09:22:07 --> 
+ERROR - 2023-12-11 09:23:40 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to 192.168.0.119:587 (Connection refused) in /var/www/html/ci4/system/Email/Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ci4/system/Email/Email.php(1888): fsockopen()
+#2 /var/www/html/ci4/system/Email/Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/html/ci4/system/Email/Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/html/ci4/system/Email/Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/html/ci4/app/Controllers/Student.php(128): CodeIgniter\Email\Email->send()
+#6 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\Student->sendEmail()
+#7 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-12-11 09:23:40 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-11 09:23:40 --> 
+ERROR - 2023-12-11 09:28:47 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to 192.168.0.119:587 (Connection refused) in /var/www/html/ci4/system/Email/Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ci4/system/Email/Email.php(1888): fsockopen()
+#2 /var/www/html/ci4/system/Email/Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/html/ci4/system/Email/Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/html/ci4/system/Email/Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/html/ci4/app/Controllers/Student.php(131): CodeIgniter\Email\Email->send()
+#6 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\Student->sendEmail()
+#7 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-12-11 09:28:47 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-11 09:28:47 --> 
+ERROR - 2023-12-11 09:28:49 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to 192.168.0.119:587 (Connection refused) in /var/www/html/ci4/system/Email/Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ci4/system/Email/Email.php(1888): fsockopen()
+#2 /var/www/html/ci4/system/Email/Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/html/ci4/system/Email/Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/html/ci4/system/Email/Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/html/ci4/app/Controllers/Student.php(131): CodeIgniter\Email\Email->send()
+#6 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\Student->sendEmail()
+#7 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-12-11 09:28:49 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-11 09:28:49 --> 
+ERROR - 2023-12-11 09:29:28 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to 192.168.0.119:587 (Connection refused) in /var/www/html/ci4/system/Email/Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ci4/system/Email/Email.php(1888): fsockopen()
+#2 /var/www/html/ci4/system/Email/Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/html/ci4/system/Email/Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/html/ci4/system/Email/Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/html/ci4/app/Controllers/Student.php(131): CodeIgniter\Email\Email->send()
+#6 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\Student->sendEmail()
+#7 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-12-11 09:29:28 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-11 09:29:28 --> 
+ERROR - 2023-12-11 09:30:42 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to 192.168.0.119:587 (Connection refused) in /var/www/html/ci4/system/Email/Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ci4/system/Email/Email.php(1888): fsockopen()
+#2 /var/www/html/ci4/system/Email/Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/html/ci4/system/Email/Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/html/ci4/system/Email/Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/html/ci4/app/Controllers/Student.php(131): CodeIgniter\Email\Email->send()
+#6 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\Student->sendEmail()
+#7 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-12-11 09:30:42 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-11 09:30:42 --> 
+ERROR - 2023-12-11 09:30:55 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to 192.168.0.119:587 (Connection refused) in /var/www/html/ci4/system/Email/Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ci4/system/Email/Email.php(1888): fsockopen()
+#2 /var/www/html/ci4/system/Email/Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/html/ci4/system/Email/Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/html/ci4/system/Email/Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/html/ci4/app/Controllers/Student.php(131): CodeIgniter\Email\Email->send()
+#6 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\Student->sendEmail()
+#7 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-12-11 09:30:55 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-11 09:30:55 --> 
+ERROR - 2023-12-11 09:32:00 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to 192.168.0.119:2525 (Connection refused) in /var/www/html/ci4/system/Email/Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ci4/system/Email/Email.php(1888): fsockopen()
+#2 /var/www/html/ci4/system/Email/Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/html/ci4/system/Email/Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/html/ci4/system/Email/Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/html/ci4/app/Controllers/Student.php(131): CodeIgniter\Email\Email->send()
+#6 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\Student->sendEmail()
+#7 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-12-11 09:32:00 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-11 09:32:00 --> 
+ERROR - 2023-12-11 09:32:02 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to 192.168.0.119:2525 (Connection refused) in /var/www/html/ci4/system/Email/Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ci4/system/Email/Email.php(1888): fsockopen()
+#2 /var/www/html/ci4/system/Email/Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/html/ci4/system/Email/Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/html/ci4/system/Email/Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/html/ci4/app/Controllers/Student.php(131): CodeIgniter\Email\Email->send()
+#6 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\Student->sendEmail()
+#7 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-12-11 09:32:02 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-11 09:32:02 --> 
+ERROR - 2023-12-11 09:39:43 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to 192.168.0.119:2525 (Connection refused) in /var/www/html/ci4/system/Email/Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ci4/system/Email/Email.php(1888): fsockopen()
+#2 /var/www/html/ci4/system/Email/Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/html/ci4/system/Email/Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/html/ci4/system/Email/Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/html/ci4/app/Controllers/Student.php(131): CodeIgniter\Email\Email->send()
+#6 /var/www/html/ci4/system/CodeIgniter.php(919): App\Controllers\Student->sendEmail()
+#7 /var/www/html/ci4/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/ci4/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/ci4/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-12-11 09:39:43 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-11 09:39:43 --> 
+ERROR - 2023-12-11 09:42:01 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-11 09:42:01 --> 220 smtp.gmail.com ESMTP d8-20020a17090ab30800b0028591079e6fsm7993169pjr.24 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2406:b400:d5:41ce:67e6:72e8:b4d2:fc69]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [2406:b400:d5:41ce:67e6:72e8:b4d2:fc69]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d8-20020a17090ab30800b0028591079e6fsm7993169pjr.24 - gsmtp
+
+ERROR - 2023-12-11 09:49:26 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-12-11 09:49:26 --> 
+ERROR - 2023-12-11 09:53:13 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-12-11 09:53:13 --> 
+ERROR - 2023-12-11 09:53:14 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-12-11 09:53:14 --> 
+INFO - 2023-12-11 12:06:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-11 12:06:43 --> Call to undefined method App\Controllers\Api::response()
+in APPPATH/Controllers/Api.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api->index()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 12:06:59 --> Call to undefined method App\Controllers\Api::respond()
+in APPPATH/Controllers/Api.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api->index()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 12:07:04 --> Call to undefined method App\Controllers\Api::respond()
+in APPPATH/Controllers/Api.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api->index()
+ 2 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 12:07:27 --> Trait 'App\Controllers\ResponseTrait' not found
+in APPPATH/Controllers/Api.php on line 6.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-11 12:28:28 --> syntax error, unexpected ''plate_no'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+in APPPATH/Controllers/Api.php on line 34.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/CodeIgniter.php(877): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 12:28:57 --> syntax error, unexpected ''plate_no'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+in APPPATH/Controllers/Api.php on line 34.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/CodeIgniter.php(877): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 12:29:04 --> syntax error, unexpected ''plate_no'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+in APPPATH/Controllers/Api.php on line 34.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/CodeIgniter.php(877): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 12:29:22 --> syntax error, unexpected ''plateno'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+in APPPATH/Controllers/Api.php on line 34.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/CodeIgniter.php(877): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 12:29:24 --> syntax error, unexpected ''plateno'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+in APPPATH/Controllers/Api.php on line 34.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/CodeIgniter.php(877): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 12:29:47 --> syntax error, unexpected ''plateno'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+in APPPATH/Controllers/Api.php on line 34.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/CodeIgniter.php(877): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 12:29:51 --> syntax error, unexpected ''plateno'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+in APPPATH/Controllers/Api.php on line 34.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/CodeIgniter.php(877): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 12:30:13 --> syntax error, unexpected ''plateno'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+in APPPATH/Controllers/Api.php on line 34.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/CodeIgniter.php(877): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
