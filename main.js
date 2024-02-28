@@ -1,3 +1,4 @@
+// This is the new branch which i made changes for updating the data and methods.
 // Load Bootstrap Modal
 function loadModal (data, width) {
 	var modalId = "myModal";
