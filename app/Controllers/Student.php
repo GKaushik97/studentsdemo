@@ -1,5 +1,7 @@
 <?php
-
+/**
+ * Students Controller
+ */ 
 namespace App\Controllers;
 use App\Models\Student_model;
 use CodeIgniter\HTTP\Files\UploadedFile;
@@ -14,7 +16,7 @@ class Student extends BaseController
 
     public function index(): string
     {
-        echo base_url();
+        // echo base_url();
         // echo $_SERVER['DOCUMENT_ROOT'].WEBROOT;exit;
         $data['students'] = $this->student->findAll();
         $course = $this->student->getCourses();
